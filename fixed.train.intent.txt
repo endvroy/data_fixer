@@ -298,7 +298,7 @@ sort a dictionary `d` by key
 Execute a put request to the url `url`
 replace everything that is not an alphabet or a digit with '' in 's'.
 create a list of aggregation of each element from list `l2` to all elements of list `l1`
-convert string `x'  to dictionary splitted by `=` using list comprehension
+convert string `x`  to dictionary splitted by `=` using list comprehension
 remove index 2 element from a list `my_list`
 Delete character "M" from a string `s` using python
 get the sum of the products of each pair of corresponding elements in lists `a` and `b`
@@ -795,7 +795,7 @@ split string 'x+13.5*10x-4e1' into tokens
 Find all Chinese characters in string `ipath`
 split string `s` by letter 's'
 run shell command 'rm -r some.file' in the background
-convert a list of dictionaries `listofdict into a dictionary of dictionaries
+convert a list of dictionaries `listofdict` into a dictionary of dictionaries
 print current date and time in a regular format
 print current date and time in a regular format
 find consecutive consonants in a word `CONCENTRATION` using regex
@@ -1187,7 +1187,7 @@ Write a string `My String` to a file `file` including new line character
 find consecutive segments from a column 'A' in a pandas data frame 'df'
 get a relative path of file 'my_file' into variable `fn`
 retrieve an element from a set `s` without removing it
-execute a command in the command prompt to list directory contents of the c drive `c:\\'
+execute a command in the command prompt to list directory contents of the c drive `c:\\`
 Make a auto scrolled window to the end of the list in gtk
 check if 3 is inside list `[1, 2, 3]`
 Represent DateTime object '10/05/2012' with format '%d/%m/%Y' into format '%Y-%m-%d'
@@ -1855,7 +1855,7 @@ limit float 13.949999999999999 to two decimal points
 limit float 13.949999999999999 to two decimal points
 load a tsv file `c:/~/trainSetRel3.txt` into a pandas data frame
 set UTC offset by 9 hrs ahead for date '2013/09/11 00:17'
-pass a list of parameters `((1, 2, 3),) to sql queue 'SELECT * FROM table WHERE column IN %s;'
+pass a list of parameters `((1, 2, 3),)` to sql queue 'SELECT * FROM table WHERE column IN %s;'
 sum all elements of two-dimensions list `[[1, 2, 3, 4], [2, 4, 5, 6]]]`
 Retrieve an arbitrary value from dictionary `dict`
 access an arbitrary value from dictionary `dict`
