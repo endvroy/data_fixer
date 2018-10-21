@@ -2292,7 +2292,7 @@ convert python dictionary `your_data` to json array
 assign an array of floats in range from 0 to 100 to a variable `values`
 sort a list of dictionaries `list_of_dct` by values in an order `order`
 change the case of the first letter in string `s`
-join list of numbers `[1,2,3,4] ` to string of numbers.
+join list of numbers `[1,2,3,4]` to string of numbers.
 delete every non `utf-8` characters from a string `line`
 execute a command `command ` in the terminal from a python script
 MySQL execute query 'SELECT * FROM foo WHERE bar = %s AND baz = %s' with parameters `param1` and `param2`
