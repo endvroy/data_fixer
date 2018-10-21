@@ -1817,7 +1817,7 @@ Get a minimum value from a list of tuples `list` with values of type `string` an
 Find average of a nested list `a`
 Log info message 'Log message' with attributes `{'app_name': 'myapp'}`
 replace values of dataframe `df` with True if numeric
-sort list `l` based on its elements' digits
+sort list `l` based on its elements digits
 close the window in tkinter
 get mean of columns `2, 5, 6, 7, 8` for all rows in dataframe `df`
 filter dataframe `df` by sub-level index '0630' in pandas
@@ -1833,7 +1833,7 @@ add variable `var` to key 'f' of first element in JSON data `data`
 get the path of module `a_module`
 get the path of the current python module
 get the path of the python module `amodule`
-fill list `myList` with 4 0's
+fill list `myList` with 4 0s
 drop duplicate indexes in a pandas data frame `df`
 unpack elements of list `i` as arguments into function `foo`
 generate list of numbers in specific format using string formatting precision.
@@ -1966,7 +1966,7 @@ Filter a dictionary `d` to remove keys with value None and replace other values 
 Filter a dictionary `d` to remove keys with value 'None' and replace other values with 'updated'
 count number of rows in a group `key_columns` in pandas groupby object `df`
 return list `result` of sum of elements of each list `b` in list of lists `a`
-What's the best way to search for a Python dictionary value in a list of dictionaries?
+Whats the best way to search for a Python dictionary value in a list of dictionaries?
 create a 2D array of `Node` objects with dimensions `cols` columns and `rows` rows
 replace extension '.txt' in basename '/home/user/somefile.txt' with extension '.jpg'
 Set the resolution of a monitor as `FULLSCREEN` in pygame
@@ -2141,7 +2141,7 @@ pandas dataframe `df` column 'a' to list
 Get a list of all values in column `a` in pandas data frame `df`
 escaping quotes in string
 check if all string elements in list `words` are upper-cased
-remove items from dictionary `myDict` if the item's value `val` is equal to 42
+remove items from dictionary `myDict` if the items value `val` is equal to 42
 Remove all items from a dictionary `myDict` whose values are `42`
 Determine the byte length of a utf-8 encoded string `s`
 kill a process with id `process.pid`
@@ -2286,7 +2286,7 @@ if Selenium textarea element `foo` is not empty, clear the field
 clear text from textarea 'foo' with selenium
 convert a number 2130706433 to ip string
 Rearrange the columns 'a','b','x','y' of pandas DataFrame `df` in mentioned sequence 'x' ,'y','a' ,'b'
-call base class's __init__ method from the child class `ChildClass`
+call base classs __init__ method from the child class `ChildClass`
 sum of all values in a python dict `d`
 convert python dictionary `your_data` to json array
 assign an array of floats in range from 0 to 100 to a variable `values`
