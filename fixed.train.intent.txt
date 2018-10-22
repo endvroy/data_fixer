@@ -48,7 +48,7 @@ get modification time of file `path`
 get modified time of file `file`
 get the creation time of file `file`
 get the creation time of file `path_to_file`
-execute os command ''TASKKILL /F /IM firefox.exe''
+execute os command 'TASKKILL /F /IM firefox.exe'
 split string `string` on whitespaces using a generator
 Unpack each value in list `x` to its placeholder '%' in string '%.2f'
 match regex pattern '(\\d+(\\.\\d+)?)' with string '3434.35353'
@@ -973,7 +973,7 @@ python get time stamp on file `file` in '%m/%d/%Y' format
 check if dictionary `subset` is a subset of dictionary `superset`
 Convert integer elements in list `wordids` to strings
 Reset the indexes of a pandas data frame
-format datetime in `dt` as string in format `'%m/%d/%Y`
+format datetime in `dt` as string in format `'%m/%d/%Y'`
 format floating point number  `TotalAmount` to be rounded off to two decimal places and have a comma thousands' seperator
 sum the values in each row of every two adjacent columns in dataframe `df`
 create list `randomList` with 10 random floating point numbers between 0.0 and 1.0
