@@ -81,7 +81,7 @@ fetch smilies matching regex pattern `'(?::|;|=)(?:-)?(?:\\)|\\(|D|P)'` in strin
 match the pattern `'[:;][)(](?![)(])'` to the string `str`
 convert a list of objects `list_name` to json string `json_string`
 create a list `listofzeros` of `n` zeros
-decode the string `'stringnamehere'`  to UTF-8
+decode the string `'stringnamehere'`  to `UTF-8`
 Match regex pattern `'((?:A|B|C)D)'` on string `'BDE'`
 Create a key `key` if it does not exist in dict `dic` and append element `value` to value.
 Get the value of the minimum element in the second column of array `a`
@@ -136,7 +136,7 @@ update dictionary `b`, overwriting values where keys are identical, with content
 get all the values in column `b` from pandas data frame `df`
 make a line plot with errorbars, `ebar`, from data `x, y, err` and set color of the errorbars to `y` (yellow)
 find all files with extension `'.c'` in directory `folder`
-add unicode string `'1'` to UTF-8 decoded string `'\xc2\xa3'`
+add unicode string `'1'` to `UTF-8` decoded string `'\xc2\xa3'`
 lower-case the string obtained by replacing the occurrences of regex pattern `'(?<=[a-z])([A-Z])'` in string `s` with eplacement `'-\\1'`
 format a string `num` using string formatting
 append the first element of array `a` to array `a`
@@ -194,7 +194,7 @@ subprocess run command `'start command -flags arguments'` through the shell
 run command `'command -flags arguments &'` on command line tools as separate processes
 replace percent-encoded code in request `f` to their single-character equivalent
 remove white spaces from the end of string `"    xyz     "`
-Replace special characters in utf-8 encoded string `s` using the %xx escape
+Replace special characters in `utf-8` encoded string `s` using the %xx escape
 Create an array containing the conversion of string `'100110'` into separate elements
 convert a string `'mystr'` to numpy array of integer values
 convert an rgb image `'messi5.jpg'` into grayscale `img`
@@ -440,7 +440,7 @@ match a sharp, followed by letters (including accent characters) in string `str1
 Rename file from `src` to `dst`
 Get all texts and tags from a tag `strong` from etree tag `some_tag` using lxml
 Serialize dictionary `data` and its keys to a JSON formatted string
-parse UTF-8 encoded HTML response `response` to BeautifulSoup object
+parse `UTF-8` encoded HTML response `response` to BeautifulSoup object
 delete file `filename`
 get the next value greatest to `2` from a list of numbers `num_list`
 Replace each value in column `'prod_type'` of dataframe `df` with string `'responsive'`
@@ -506,7 +506,7 @@ sort a dictionary `d` by length of its values and print as string
 convert tuple elements in list `[(1,2),(3,4),(5,6),]` into lists
 create a list of tuples which contains number `9` and the number before it, for each occurrence of `9` in the list `'myList'`
 navigate to webpage given by url `http://www.python.org` using Selenium
-reverse a UTF-8 string `'a'`
+reverse a `UTF-8` string `'a'`
 extract date from a string `'monkey 2010-07-32 love banana'`
 extract date from a string `'monkey 20/01/1980 love banana'`
 extract date from a string `monkey 10/01/1980 love banana`
@@ -594,7 +594,7 @@ get equivalent week number from a date `2010/6/16` using  isocalendar
 select multiple ranges of columns 1-10, 15, 17, and 50-100 in pandas dataframe `df`
 apply two different aggregating functions `mean` and `sum` to the same column `dummy` in pandas data frame `df`
 convert string `s` to lowercase
-convert utf-8 string `s` to lowercase
+convert `utf-8` string `s` to lowercase
 handle the `urlfetch_errors ` exception for imaplib request to url `url`
 output first `100` characters in a string `my_string`
 make matplotlib plot legend put marker in legend only once
@@ -623,7 +623,7 @@ read file `'myfile.txt'` using universal newline mode `'U'`
 print line `line` from text file with `'utf-16-le'` format
 open a text file `data.txt` in io module with encoding `utf-16-le`
 Join data of dataframe `df1` with data in dataframe `df2` based on similar values of column `'user_id'` in both dataframes
-check if string `foo` is UTF-8 encoded
+check if string `foo` is `UTF-8` encoded
 get the dimensions of numpy array `a`
 get the dimensions of numpy array `a`
 get the dimensions of array `a`
@@ -1020,7 +1020,7 @@ get the context of a search by keyword `'My keywords'` in beautifulsoup `soup`
 convert rows in pandas data frame `df` into list
 convert a 1d `A` array to a 2d array `B`
 run app `app` on host `'192.168.0.58'` and port `9000` in Flask
-encode unicode string `'\xc5\xc4\xd6'` to utf-8 code
+encode unicode string `'\xc5\xc4\xd6'` to `utf-8` code
 get the first element of each tuple from a list of tuples `G`
 regular expression matching all but `'aa'` and `'bb'` for string `string`
 regular expression matching all but `'aa'` and `'bb'`
@@ -1278,7 +1278,7 @@ Search for string `'blabla'` in txt file `'example.txt'`
 Search for string `'blabla'` in txt file `'example.txt'`
 insert string `string1` after each character of `string2`
 getting every possible combination of two elements in a list
-get a utf-8 string literal representation of byte string `x`
+get a `utf-8` string literal representation of byte string `x`
 check if `x` is an integer
 check if `x` is an integer
 play the wav file `'sound.wav'`
@@ -1311,7 +1311,7 @@ merge a pandas data frame `distancesDF` and column `dates` in pandas data frame 
 get value of first index of each element in list `a`
 python how to get every first element in `2` dimensional list `a`
 remove line breaks from string `textblock` using regex
-Open gzip-compressed file encoded as utf-8 `'file.gz'` in text mode
+Open gzip-compressed file encoded as `utf-8` `'file.gz'` in text mode
 test if either of strings `a` or `b` are members of the set of strings, `['b', 'a', 'foo', 'bar']`
 Check if all the values in a list `['a', 'b']` are present in another list `['b', 'a', 'foo', 'bar']`
 Remove characters `"!@#$"` from a string `line`
@@ -1690,7 +1690,7 @@ left trimming `"\n\r"` from string `myString`
 right trimming `"\n\t"` from string `myString`
 Trimming a string `"  Hello\n"` by space
 sort a list of tuples `'unsorted'` based on two elements, second and third
-decode string `content` to UTF-8 code
+decode string `content` to `UTF-8` code
 find the index of the maximum value in the array `arr` where the boolean condition in array `cond` is true
 convert a dataframe `df`'s column `ID` into datetime, after removing the first and last `3` letters
 read CSV file `'my.csv'` into a dataframe `df` with datatype of float for column `'my_column'` considering character `'n/a'` as NaN value
@@ -2070,7 +2070,7 @@ pandas split strings in column `'stats'` by `','` into columns in dataframe `df`
 split string in column `'stats'` by `','` into separate columns in dataframe `df`
 Unpack column `'stats'` in dataframe `df` into a series of columns
 wait for shell command `p` evoked by  subprocess.Popen to complete
-encode string `s` to utf-8 code
+encode string `s` to `utf-8` code
 parse string `'01-Jan-1995'` into a datetime object using format `'%d-%b-%Y'`
 copy a file from `src` to `dst`
 copy file `"/dir/file.ext"` to `"/new/dir/newname.ext"`
@@ -2097,7 +2097,7 @@ get the last `10` elements from a list `my_list`
 convert matlab engine array `x` to a numpy ndarray
 select the first row grouped per level `0` of dataframe `df`
 concatenate sequence of numpy arrays  `LIST` into a one dimensional array along the first axis
-convert and escape string `"\\xc3\\x85あ"` to UTF-8 code
+convert and escape string `"\\xc3\\x85あ"` to `UTF-8` code
 encode string `"\\xc3\\x85あ"` to bytes
 interleave the elements of two lists `a` and `b`
 merge two lists `a` and `b` into a single list
@@ -2117,7 +2117,7 @@ sort array `order_array` based on column `'year'`, `'month'` and `'day'`
 Sort a structured numpy array `'df'` on multiple columns `'year'`, `'month'` and `'day'`.
 check if elements in list `my_list` are coherent in order
 group rows of pandas dataframe `df` with same `'id'`
-encode `u'X\xc3\xbcY\xc3\x9f'` as unicode and decode with utf-8
+encode `u'X\xc3\xbcY\xc3\x9f'` as unicode and decode with `utf-8`
 parse string `a` to float
 Parse String `s` to Float or Int
 check if object `a` has property `'property'`
@@ -2143,7 +2143,7 @@ escaping quotes in string
 check if all string elements in list `words` are upper-cased
 remove items from dictionary `myDict` if the item's value `val` is equal to `42`
 Remove all items from a dictionary `myDict` whose values are `42`
-Determine the byte length of a utf-8 encoded string `s`
+Determine the byte length of a `utf-8` encoded string `s`
 kill a process with id `process.pid`
 get data of columns with Null values in dataframe `df`
 strip everything up to and including the character `&` from url `url`, strip the character `=` from the remaining string and concatenate `.html` to the end
@@ -2207,7 +2207,7 @@ invoke perl script `'./uireplace.pl'` using perl interpeter `'/usr/bin/perl'` an
 print list of items `myList`
 update the dictionary `mydic` with dynamic keys `i` and values with key `'name'` from dictionary `o`
 split a `utf-8` encoded string `stru` into a list of characters
-convert utf-8 with bom string `s` to utf-8 with no bom `u`
+convert `utf-8` with bom string `s` to `utf-8` with no bom `u`
 Filter model `'Entry'` where `'id'` is not equal to `3` in Django
 lookup an attribute in any scope by name `'range'`
 restart a computer after `900` seconds using subprocess
@@ -2257,7 +2257,7 @@ Calling an external command `"echo Hello World"`
 Calling an external command `"echo Hello World"`
 Calling an external command `"echo Hello World"`
 Calling an external command `"ls -l"`
-decode url `url` with utf8 and print it
+decode url `url` with `utf8` and print it
 decode a urllib escaped url string `url` with `utf8`
 delete letters from string `'12454v'`
 Update row values for a column `Season` using vectorized string operation in pandas
