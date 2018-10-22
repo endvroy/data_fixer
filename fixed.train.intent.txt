@@ -103,7 +103,7 @@ trim whitespace (including tabs) in `s` on the left side
 trim whitespace (including tabs) in `s` on the right side
 trim characters `' \t\n\r'` in `s`
 trim whitespaces (including tabs) in string `s`
-In Django, filter `Task.objects` based on all entities in ['A', 'P', 'F']
+In Django, filter `Task.objects` based on all entities in `['A', 'P', 'F']`
 Change background color in Tkinter
 convert dict `result` to numpy structured array
 Concatenate dataframe `df_1` to dataframe `df_2` sorted by values of the column `'y'`
@@ -400,7 +400,7 @@ merge a list of dictionaries in list `L` into a single dict
 sort a pandas data frame according to column `Peak` in ascending and `Weeks` in descending order
 sort a pandas data frame by column `Peak` in ascending and `Weeks` in descending order
 run the code contained in string `"print('Hello')"`
-creating a list of dictionaries [{'A': 1, 'C': 4, 'B': 2, 'D': 4}, {'A': 1, 'C': 4, 'B': 1, 'D': 5}]
+creating a list of dictionaries `[{'A': 1, 'C': 4, 'B': 2, 'D': 4}, {'A': 1, 'C': 4, 'B': 1, 'D': 5}]`
 get all possible combination of items from 2-dimensional list `a`
 Get sum of values of columns  `'Y1961'`, `'Y1962'`, `'Y1963'` after group by on columns `"Country"` and `"Item_code"` in dataframe `df`.
 create list `done` containing permutations of each element in list `[a, b, c, d]` with variable `x` as tuples
@@ -1055,7 +1055,7 @@ get output from process `p1`
 searche in HTML string for elements that have text `'Python'`
 BeautifulSoup find string `'Python Jobs'` in HTML body `body`
 Sort items in dictionary `d`  using the first part of the key after splitting the key
-create a set that is the exclusive or of [1, 2, 3] and [3, 4, 5]
+create a set that is the exclusive or of `[1, 2, 3]` and `[3, 4, 5]`
 Get a list values of a dictionary item `pass_id` from post requests in django
 Filter duplicate entries w.r.t. value in `'id'` from a list of dictionaries `'L'`
 Get pandas GroupBy object with sum over the rows with same column names within  dataframe `df`
@@ -1103,10 +1103,10 @@ get tuples of the corresponding elements from lists `lst` and `lst2`
 create tuples containing elements that are at the same index of list `lst` and list `lst2`
 get tuples from lists `lst` and `lst2` using list comprehension in python 2
 convert hex triplet string `rgbstr` to rgb tuple
-Check if `3` is not in a list [2, 3, 4]
-Check if tuple (2, 3) is not in a list [(2, 3), (5, 6), (9, 1)]
-Check if tuple (2, 3) is not in a list [(2, 7), (7, 3), "hi"]
-Check if `3` is not in the list [4,5,6]
+Check if `3` is not in a list `[2, 3, 4]`
+Check if tuple (2, 3) is not in a list `[(2, 3), (5, 6), (9, 1)]`
+Check if tuple (2, 3) is not in a list `[(2, 7), (7, 3), "hi"]`
+Check if `3` is not in the list `[4,5,6]`
 create a list by appending components from list `a` and reversed list `b` interchangeably
 delete the last column of numpy array `a` and assign resulting array to `b`
 commit all the changes after executing a query.
@@ -1236,7 +1236,7 @@ select `div` tags whose `id`s begin with `value_xxx_c_1_f_8_a_`
 delete an item `thing` in a list `some_list` if it exists
 print `"Please enter something: "` to console, and read user input to `var`
 append `4` to list `foo`
-append a list [8, 7] to list `foo`
+append a list `[8, 7]` to list `foo`
 insert `77` to index `2` of list `x`
 remove white space padding around a saved image `test.png` in matplotlib
 concatenate lists `listone` and `listtwo`
@@ -1996,7 +1996,7 @@ create a list of integers from `1` to `5` with each value duplicated
 remove first and last lines of string `s`
 create dict of squared int values in range of `100`
 zip lists `[1, 2], [3, 4], [5, 6]` in a list
-zip lists in a list [[1, 2], [3, 4], [5, 6]]
+zip lists in a list `[[1, 2], [3, 4], [5, 6]]`
 request page `'https://www.mysite.com/'` with credentials of username `'username'` and password `'pwd'`
 get a new string from the 3rd character to the end of the string `x`
 get a new string including the first two characters of string `x`
@@ -2059,7 +2059,7 @@ duplicate data in pandas dataframe `x` for `5` times
 Get a repeated pandas data frame object `x` by `5` times
 sort json `ips_data` by a key `'data_two'`
 read json `elevations` to pandas dataframe `df`
-generate a random number in `1` to `7` with a given distribution [0.1, 0.05, 0.05, 0.2, 0.4, 0.2]
+generate a random number in `1` to `7` with a given distribution `[0.1, 0.05, 0.05, 0.2, 0.4, 0.2]`
 Return rows of data associated with the maximum value of column `'Value'` in dataframe `df`
 find recurring patterns in a string `'42344343434'`
 convert binary string `'\x00\x00\x80?\x00\x00\x00@\x00\x00@@\x00\x00\x80@'` to numpy array
