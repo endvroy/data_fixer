@@ -23,7 +23,7 @@ assign float `9.8` to variable `GRAVITY`
 separate numbers from characters in string `"30m1000n20m"`
 separate numbers and characters in string `'20M10000N80M'`
 separate numbers and characters in string `'20M10000N80M'`
-Get a list of  words from a string `Hello world, my name is...James the 2nd!` removing punctuation
+Get a list of  words from a string `'Hello world, my name is...James the 2nd!'` removing punctuation
 Convert string `'03:55'` into datetime.time object
 request url `'https://www.reporo.com/'` without verifying SSL certificates
 Extract values not equal to `0` from numpy array `a`
