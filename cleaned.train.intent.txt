@@ -31,7 +31,7 @@ map two lists `keys` and `values` into a dictionary
 map two lists `keys` and `values` into a dictionary
 map two lists `keys` and `values` into a dictionary
 find the string matches within parenthesis from a string `s` using regex
-Enable the SO_REUSEADDR socket option in socket object `s` to fix the error `only one usage of each socket address is normally permitted`
+Enable the `SO_REUSEADDR` socket option in socket object `s` to fix the error `only one usage of each socket address is normally permitted`
 append the sum of each tuple pair in the grouped list `list1` and list `list2` elements to list `list3`
 converting hex string `s` to its integer representations
 sort list `student_tuples` by second element of each tuple in ascending and third element of each tuple in descending
@@ -471,7 +471,7 @@ split string `text` into chunks of `16` characters each
 Get a list comprehension in list of lists `X`
 convert unicode string `'\xd0\xbc\xd0\xb0\xd1\x80\xd0\xba\xd0\xb0'` to byte string
 split dataframe `df` where the value of column `a` is equal to `'B'`
-save json output from a url ‘http://search.twitter.com/search.json?q=hi’ to file ‘hi.json’ in Python 2
+save json output from a url `'http://search.twitter.com/search.json?q=hi` to file `hi.json` in Python 2
 Find indices of elements equal to zero from numpy array `x`
 flush output of python print
 convert `i` to string
