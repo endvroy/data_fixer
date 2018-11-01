@@ -1,7 +1,7 @@
 Concatenate elements of a list `'x'` of multiple integers to a single integer
 convert a list of integers into a single integer
 convert a DateTime string back to a DateTime object of format `'%Y-%m-%d %H:%M:%S.%f'`
-get the average of a list values for each key in dictionary `d`)
+get the average of a list values for each key in dictionary `d`
 zip two lists `[1, 2]` and `[3, 4]` into a list of two tuples containing elements at the same index in each list
 prepend string `'hello'` to all items in list `a`
 regex for repeating words in a string `s`
@@ -57,7 +57,7 @@ create a list `result` containing elements form list `list_a` if first element o
 generate all possible string permutations of each two elements in list `['hel', 'lo', 'bye']`
 get a list of items form nested list `li` where third element of each item contains string `'ar'`
 Sort lists in the list `unsorted_list` by the element at index `3` of each list
-Log message `'test'` on the root logger.
+Log message `'test'` on the root logger
 Return a subplot axes positioned by the grid definition `1,1,1` using matpotlib
 Sort dictionary `x` by value in ascending order
 Sort dictionary `dict1` by value in ascending order
@@ -83,7 +83,7 @@ convert a list of objects `list_name` to json string `json_string`
 create a list `listofzeros` of `n` zeros
 decode the string `'stringnamehere'`  to `UTF-8`
 Match regex pattern `'((?:A|B|C)D)'` on string `'BDE'`
-Create a key `key` if it does not exist in dict `dic` and append element `value` to value.
+Create a key `key` if it does not exist in dict `dic` and append element `value` to value
 Get the value of the minimum element in the second column of array `a`
 extend dictionary `a` with key/value pairs of dictionary `b`
 removing key values pairs with key `'mykey1'` from a list of dictionaries `mylist`
@@ -120,7 +120,7 @@ add key `"item3"` and value `"3"` to dictionary `default_data `
 add key value pairs `'item4'` , `4` and `'item5'` , `5` to dictionary `default_data`
 Get the first and last `3` elements of list `l`
 reset index to default in dataframe `df`
-For each index `x` from `0` to 3, append the element at index `x` of list `b` to the list at index `x` of list a.
+For each index `x` from `0` to 3, append the element at index `x` of list `b` to the list at index `x` of list a
 get canonical path of the filename `path`
 check if dictionary `L[0].f.items()` is in dictionary `a3.f.items()`
 find all the indexes in a Numpy 2D array where the value is `1`
@@ -208,8 +208,8 @@ make a window `root` jump to the front
 make a window `root` jump to the front
 Convert list of booleans `walls` into a hex string
 convert the sum of list `walls` into a hex presentation
-print the string `Total score for`, the value of the variable `name`, the string `is` and the value of the variable `score` in one print call.
-print multiple arguments `'name'` and `'score'`.
+print the string `Total score for`, the value of the variable `name` the string `is` and the value of the variable `score` in one print call
+print multiple arguments `'name'` and `'score'`
 print a string using multiple strings `name` and `score`
 print string including multiple variables `name` and `score`
 serve a static html page `'your_template.html'` at the root of a django project
@@ -220,7 +220,7 @@ find all digits in string `'6,7)'` and put them to a list
 prompt string `'Press Enter to continue...'` to the console
 print string `"ABC"` as hex literal
 insert a new field `'geolocCountry'` on an existing document  `'b'` using pymongo
-Write a regex statement to match `'lol'` to `'lolllll'`.
+Write a regex statement to match `'lol'` to `'lolllll'`
 BeautifulSoup find all `'tr'` elements in HTML string `soup` at the five stride starting from the fourth element
 reverse all x-axis points in pyplot
 reverse y-axis in pyplot
@@ -235,7 +235,7 @@ extract all keys from a list of dictionaries `LoD`
 unpack keys and values of a dictionary `d` into two lists
 convert a string `s` containing a decimal to an integer
 check if array `b` contains all elements of array `a`
-numpy:  check if array `'a'` contains all the numbers in array `'b'`.
+numpy:  check if array `'a'` contains all the numbers in array `'b'`
 Draw node labels `labels` on networkx graph `G ` at position `pos`
 make a row-by-row copy `y` of array `x`
 Create 2D numpy array from the data provided in `'somefile.csv'` with each row in the file having same number of values
@@ -296,7 +296,7 @@ Slice `url` with `'&'` as delimiter  to get  `"http://www.domainname.com/page?CO
 sort dictionary `d` by key
 sort a dictionary `d` by key
 Execute a put request to the url `url`
-replace everything that is not an alphabet or a digit with `''` in `'s'`.
+replace everything that is not an alphabet or a digit with `''` in `'s'`
 create a list of aggregation of each element from list `l2` to all elements of list `l1`
 convert string `x`  to dictionary splitted by `=` using list comprehension
 remove index `2` element from a list `my_list`
@@ -319,7 +319,7 @@ add one day and three hours to the present time from datetime.now()
 switch keys and values in a dictionary `my_dict`
 sort a list `L` by number after second `'.'`
 Check if the value of the key `"name"` is `"Test"` in a list of dictionaries `label`
-remove all instances of [1, 1] from list `a`
+remove all instances of `[1, 1]` from list `a`
 remove all instances of `[1, 1]` from a list `a`
 convert a list `'a'` to a dictionary where each even element represents the key to the dictionary, and the following odd element is the value
 check whether elements in list `a` appear only once
@@ -369,7 +369,7 @@ get file `'~/foo.ini'`
 get multiple parameters with same name from a url in pylons
 Convert array `x` into a correlation matrix
 Find the greatest number in set `(1, 2, 3)`
-Retrieve parameter `'var_name'` from a GET request.
+Retrieve parameter `'var_name'` from a GET request
 Add `100` to each element of column `"x"` in dataframe `a`
 Django get first `10` records of model `User` ordered by criteria `'age'` of model `'pet'`
 delay for `"5"` seconds
@@ -377,7 +377,7 @@ make a `60` seconds time delay
 make a `0.1` seconds time delay
 make a `60` seconds time delay
 make a `0.1` seconds time delay
-From a list of strings `my_list`, remove the values that contains numbers.
+From a list of strings `my_list`, remove the values that contains numbers
 get the middle two characters of a string `'state'` in a pandas dataframe `df`
 draw a grid line on every tick of plot `plt`
 sort list `lst` based on each element's number of occurrences
@@ -402,13 +402,13 @@ sort a pandas data frame by column `Peak` in ascending and `Weeks` in descending
 run the code contained in string `"print('Hello')"`
 creating a list of dictionaries `[{'A': 1, 'C': 4, 'B': 2, 'D': 4}, {'A': 1, 'C': 4, 'B': 1, 'D': 5}]`
 get all possible combination of items from 2-dimensional list `a`
-Get sum of values of columns  `'Y1961'`, `'Y1962'`, `'Y1963'` after group by on columns `"Country"` and `"Item_code"` in dataframe `df`.
+Get sum of values of columns  `'Y1961'`, `'Y1962'`, `'Y1963'` after group by on columns `"Country"` and `"Item_code"` in dataframe `df`
 create list `done` containing permutations of each element in list `[a, b, c, d]` with variable `x` as tuples
 remove Nan values from array `x`
 remove first directory from path `'/First/Second/Third/Fourth/Fifth'`
 Replace `;` with `:` in a string `line`
 call bash command `'tar c my_dir | md5sum'` with pipe
-Convert a hex string `437c2123 ` according to ascii value.
+Convert a hex string `437c2123 ` according to ascii value
 Get a list of all fields in class `User` that are marked `required`
 remove column by index `[:, 0:2]` in dataframe `df`
 change a string of integers `x` separated by spaces to a list of int
@@ -499,7 +499,7 @@ get the text of multiple elements found by xpath `"//*[@type='submit']/@value"`
 find all the values in attribute `value` for the tags whose `type` attribute is `submit` in selenium
 parse a YAML file `"example.yaml"`
 parse a YAML file `"example.yaml"`
-Sort the values of the dataframe `df` and align the columns accordingly based on the obtained indices after np.argsort.
+Sort the values of the dataframe `df` and align the columns accordingly based on the obtained indices after `np.argsort`
 Getting today's date in YYYY-MM-DD
 urlencode a querystring `'string_of_characters_like_these:$#@=?%^Q^$'` in python 2
 sort a dictionary `d` by length of its values and print as string
@@ -531,7 +531,7 @@ remove dictionary from list `a` if the value associated with its key `'link'` is
 get a request parameter `a` in `jinja2`
 create a list of integers between 2 values `11` and `17`
 Change data type of data in column `'grade'` of dataframe `data_df` into float and then to int
-Find the list in a list of lists `alkaline_earth_values` with the max value of the second element.
+Find the list in a list of lists `alkaline_earth_values` with the max value of the second element
 remove leading and trailing zeros in the string `'your_Strip'`
 generate a list of all unique pairs of integers in `range(9)`
 create a regular expression that matches the pattern `'^(.+)(?:\\n|\\r\\n?)((?:(?:\\n|\\r\\n?).+)+)'` over multiple lines of text
@@ -565,7 +565,7 @@ create a set from string `s` to remove duplicate characters
 list folders in zip file `'file'` that ends with `'/'`
 find the count of a word `'Hello'` in a string `input_string`
 reduce the first element of list of strings `data` to a string, separated by `'.'`
-Move the cursor of file pointer `fh1` at the end of the file.
+Move the cursor of file pointer `fh1` at the end of the file
 convert a flat list into a list of tuples of every two items in the list, in order
 group a list of ints into a list of tuples of each `2` elements
 set the default encoding to `'utf-8'`
@@ -630,7 +630,7 @@ get the dimensions of array `a`
 get the dimensions of numpy array `a`
 get the indices of tuples in list of tuples `L` where the first value is `53`
 convert string of bytes `y\xcc\xa6\xbb` into an int
-get the first row, second column; second row, first column, and first row third column values of numpy array `arr`
+get the first row, second column; second row, first column and first row third column values of numpy array `arr`
 create a list with permutations of string `'abcd'`
 Convert string to boolean from defined set of strings
 replace special characters in url `'http://spam.com/go/'` using the `'%xx'` escape
@@ -653,7 +653,7 @@ Get only first element in each of the innermost of the multidimensional list `li
 Sort a string `s` in lexicographic order
 sort string `s` in lexicographic order
 get a sorted list of the characters of string `s` in lexicographic order, with lowercase letters first
-find all the rows in Dataframe `'df2'` that are also present in Dataframe `'df1'`, for the columns `'A'`, `'B'`, `'C'` and `'D'`.
+find all the rows in Dataframe `'df2'` that are also present in Dataframe `'df1'`, for the columns `'A'`, `'B'`, `'C'` and `'D'`
 Reverse key-value pairs in a dictionary `map`
 decode unicode string `s` into a readable unicode literal
 convert list of strings `str_list` into list of integers
@@ -677,7 +677,7 @@ split string `str1` on one or more spaces with a regular expression
 Evaluate a nested dictionary `myobject.id.number` to get `number` if `myobject` is present with getattr
 convert generator object to a dictionary
 convert generator object to a dictionary
-Matplotlib clear the current axes.
+Matplotlib clear the current axes
 split string `s` into float values and write sum to `total`
 Convert ascii value `'P'` to binary
 print a string after a specific substring `', '` in string `my_string `
@@ -828,7 +828,7 @@ convert pandas DataFrame `df` to a dictionary using `id` field as the key
 convert pandas dataframe `df` with fields `'id'`, `'value'` to dictionary
 remove parentheses and text within it in string `filename`
 Check if string `'a b'` only contains letters and spaces
-sum each element `x` in list `first` with element `y` at the same index in list `second`.
+sum each element `x` in list `first` with element `y` at the same index in list `second`
 sort a python dictionary `a_dict` by element `1` of the value
 get index of the biggest `2` values of a list `a`
 get indexes of the largest `2` values from a list `a` using itemgetter
@@ -899,7 +899,7 @@ Sort a data `a` in descending order based on the `modified` attribute of element
 print the truth value of `a`
 rename `last` row index label in dataframe `df` to `a`
 Fit Kmeans function to a one-dimensional array `x` by reshaping it to be a multidimensional array of single values
-Sort a list of strings `'words'` such that items starting with `'s'` come first.
+Sort a list of strings `'words'` such that items starting with `'s'` come first
 open the login site `'http://somesite.com/adminpanel/index.php'` in the browser
 fetch all elements in a dictionary `parent_dict`, falling between two keys `2` and `4`
 fetch all elements in a dictionary `'parent_dict'` where the key is between the range of `2` to `4`
@@ -950,7 +950,7 @@ Execute SQL statement `sql` with values of dictionary `myDict` as parameters
 Convert CSV file `Result.csv` to Pandas dataframe using separator `' '`
 update the `globals()` dictionary with the contents of the `vars(args)` dictionary
 find all substrings in `mystring` beginning and ending with square brackets
-Format all floating variables `var1`, `var2`, `var3`, `var1` to print to two decimal places.
+Format all floating variables `var1`, `var2`, `var3`, `var1` to print to two decimal places
 Remove all items from a dictionary `d` where the values are less than `1`
 Filter dictionary `d` to have items with value greater than `0`
 convert a string of date strings `date_stngs ` to datetime objects and put them in a dataframe
@@ -965,7 +965,7 @@ lowercase a python dataframe string in column `'x'` if it has missing values in 
 append dict `{'f': var6, 'g': var7, 'h': var8}` to value of key `e` in dict `jsobj['a']['b']`
 Concat a list of strings `lst` using string formatting
 sum values greater than `0` in dictionary `d`
-run flask application `app` in debug mode.
+run flask application `app` in debug mode
 drop rows whose index value in list `[1, 3]` in dataframe `df`
 replace nan values in a pandas data frame with the average of columns
 extract attribute `my_attr` from each object in list `my_list`
@@ -1038,7 +1038,7 @@ list all files of a directory `"somedirectory"`
 execute sql query `'INSERT INTO table VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s)'` with all parameters in list `tup`
 get keys with same value in dictionary `d`
 get keys with same value in dictionary `d`
-Get keys from a dictionary `'d'` where the value is `'1'`.
+Get keys from a dictionary `'d'` where the value is `'1'`
 create list of `'size'` empty strings
 generate pdf file `output_filename` from markdown file `input_filename`
 remove duplicate dict in list `l`
@@ -1067,7 +1067,7 @@ case insensitive string comparison between `string1` and `string2`
 case insensitive string comparison between `first` and `second`
 case insensitive comparison between strings `first` and `second`
 Taking the results of a bash command `"awk '{print $10, $11}' test.txt > test2.txt"`
-remove multiple values from a list `my_list` at the same time with index starting at `2` and ending just before `6`.
+remove multiple values from a list `my_list` at the same time with index starting at `2` and ending just before `6`
 convert a string `s` to its base-`10` representation
 match regex pattern `'TAA(?:[ATGC]{3})+?TAA'` on string `seq`
 sort a set `s` by numerical value
@@ -1109,7 +1109,7 @@ Check if tuple (2, 3) is not in a list `[(2, 7), (7, 3), "hi"]`
 Check if `3` is not in the list `[4,5,6]`
 create a list by appending components from list `a` and reversed list `b` interchangeably
 delete the last column of numpy array `a` and assign resulting array to `b`
-commit all the changes after executing a query.
+commit all the changes after executing a query
 join two dataframes based on values in selected columns
 set text color as `red` and background color as `#A3C1DA` in qpushbutton
 find the mean of elements in list `l`
@@ -1159,7 +1159,7 @@ open file `'5_1.txt'` in directory `direct`
 create a list with the characters of a string `5+6`
 concatenate a list of numpy arrays `input_list` together into a flattened list of values
 convert dictionary `dict` into a flat list
-Convert a dictionary `dict` into a list with key and values as list items.
+Convert a dictionary `dict` into a list with key and values as list items
 get a random record from model `'MyModel'` using django's orm
 change current working directory to directory `'chapter3'`
 change current working directory
@@ -1254,7 +1254,7 @@ print `'[1, 2, 3]'`
 Display `1 2 3` as a list of string
 get values from a dictionary `my_dict` whose key contains the string `Date`
 drop a single subcolumn `'a'` in column `'col1'` from a dataframe `df`
-dropping all columns named `'a'` from a multiindex `'df'`, across all level.
+dropping all columns named `'a'` from a multiindex `'df'`, across all level
 build dictionary with keys of dictionary `_container` as keys and values of returned value of function `_value` with correlating key as parameter
 click on the text button `'section-select-all'` using selenium python
 combine two dictionaries `d ` and `d1`, concatenate string values with identical `keys`
@@ -1268,7 +1268,7 @@ set data in column `'value'` of dataframe `df` equal to first element of each li
 get element at index `0` of each list in column `'value'` of dataframe `df`
 remove square bracket `'[]'` from pandas dataframe `df` column `'value'`
 Get a string with string formatting from dictionary `d`
-Sum of sums of each list, in a list of lists named `'lists'`.
+Sum of sums of each list, in a list of lists named `'lists'`
 Check whether a numpy array `a` contains a given row `[1, 2]`
 check if all elements in list `mylist` are the same
 split a string `s` at line breaks `\r\n`
@@ -1301,12 +1301,12 @@ Generate a random integer between `a` and `b`
 Generate random integers between `0` and `9`
 reverse a string `a` by `2` characters at a time
 transform time series `df` into a pivot table aggregated by column `'Close'` using column `df.index.date` as index and values of column `df.index.time` as columns
-check if the third element of all the lists in a list `"items"` is equal to zero.
+check if the third element of all the lists in a list `"items"` is equal to zero
 Find all the lists from a lists of list `'items'` if third element in all sub-lists is `'0'`
 sort dictionary of dictionaries `dic` according to the key `'Fisher'`
 plot a data logarithmically in y axis
 list the contents of a directory `'/home/username/www/'`
-list all the contents of the directory `'path'`.
+list all the contents of the directory `'path'`
 merge a pandas data frame `distancesDF` and column `dates` in pandas data frame `datesDF` into single
 get value of first index of each element in list `a`
 python how to get every first element in `2` dimensional list `a`
@@ -1347,7 +1347,7 @@ Iterate over dictionary `d` in ascending order of values
 iterate over a python dictionary, ordered by values
 split 1d array `a` into 2d array at the last element
 convert dataframe `df` into a pivot table using column `'order'` as index and values of column `'sample'` as columns
-select all rows from pandas DataFrame `'df'` where the value in column `'A'` is greater than `1` or less than `-1` in column `'B'`.
+select all rows from pandas DataFrame `'df'` where the value in column `'A'` is greater than `1` or less than `-1` in column `'B'`
 Get the zip output as list from the lists `[1, 2, 3]`, `[4, 5, 6]`, `[7, 8, 9]`
 select rows of dataframe `df` whose value for column `A` is `foo`
 select rows whose column value in column `column_name` does not equal `some_value` in pandas data frame
@@ -1410,9 +1410,9 @@ get the maximum string length in nested list `i`
 execute os command `my_cmd`
 sort list `mylist` alphabetically
 sort list `mylist` in alphabetical order
-sort a list of strings `'mylist'`.
+sort a list of strings `'mylist'`
 sort a list of strings `list`
-Set multi index on columns `'Company'` and `'date'` of data frame `df` in pandas.
+Set multi index on columns `'Company'` and `'date'` of data frame `df` in pandas
 get the attribute `x` from object `your_obj`
 remove first word in string `s`
 save xlsxwriter file in `'app/smth1/smth2/Expenses01.xlsx'` path and assign to variable `workbook`
@@ -1452,12 +1452,12 @@ decode encodeuricomponent in GAE
 get proportion of rows in dataframe `trace_df` whose values for column `ratio` are greater than `0`
 convert a set of tuples `queryresult` to a string `emaillist`
 convert a set of tuples `queryresult` to a list of strings
-convert a list of tuples `queryresult` to a string from the first indexes.
+convert a list of tuples `queryresult` to a string from the first indexes
 get the widget which has currently the focus in tkinter instance `window2`
 Initialize a list `a` with `10000` items and each item's value `0`
 Keep only unique words in list of words `words` and join into string
 generate `6` random numbers between `1` and `50`
-generate six unique random numbers in the range of `1` to 49.
+generate six unique random numbers in the range of `1` to 49
 lowercase keys and values in dictionary `{'My Key': 'My Value'}`
 lowercase all keys and values in dictionary `{'My Key': 'My Value'}`
 Convert each key,value pair in a dictionary `{'My Key': 'My Value'}` to lowercase
@@ -1507,7 +1507,7 @@ replace values `['ABC', 'AB']` in a column `'BrandName'` of  pandas dataframe `d
 Subtract the mean of each row in dataframe `df` from the corresponding row's elements
 remove all non-alphabet chars from string `s`
 split a string `s` into integers
-split a string `42 0` by white spaces.
+split a string `42 0` by white spaces
 get indexes of all true boolean values from a list `bool_list`
 group dataframe `data` entries by year value of the date in column `'date'`
 Get the indices in array `b` of each element appearing in array `a`
@@ -1548,14 +1548,14 @@ count the number of non-nan elements in a numpy ndarray matrix `data`
 Convert each list in list `main_list` into a tuple
 django get the value of key `'title'` from POST request `request` if exists, else return empty string `''`
 check if string `test.mp3` ends with one of the strings from a tuple `('.mp3', '.avi')`
-split a string `'s'` by space while ignoring spaces within square braces and quotes.
+split a string `'s'` by space while ignoring spaces within square braces and quotes
 get biggest `3` values from each column of the pandas dataframe `data`
 permanently set the current directory to the `'C:/Users/Name/Desktop'`
 get all characters between two `$` characters in string `string`
 getting the string between 2 `'$'` characters in `'$sin (x)$ is an function of x'`
 Format a date object `str_data` into iso fomrat
 get element at index `0` of first row and element at index `1` of second row in array `A`
-subset numpy array `a` by column and row, returning the values from the first row, first column and the second row, second column and the third row, first column.
+subset numpy array `a` by column and row, returning the values from the first row first column and the second row, second column and the third row first column
 Get a list of all keys from dictionary `dictA` where the number of occurrences of value `duck` in that key is more than `1`
 Create sub matrix of a list of lists `[[2, 3, 4], [2, 3, 4], [2, 3, 4]]` (without numpy)
 get an element at index `[1,1]`in a numpy array `arr`
@@ -1665,7 +1665,7 @@ send data `'HTTP/1.0 200 OK\r\n\r\n'` to socket `connection`
 set the value of cell `['x']['C']` equal to `10` in dataframe `df`
 normalize the dataframe `df` along the rows
 remove identical items from list `my_list` and sort it alphabetically
-find the index of the element with the maximum value from a list `'a'`.
+find the index of the element with the maximum value from a list `'a'`
 create a list where each element is a value of the key `'Name'` for each dictionary `d` in the list `thisismylist`
 create a list of tuples with the values of keys `'Name'` and `'Age'` from each dictionary `d` in the list `thisismylist`
 grab one random item from a database `model` in django/postgresql
@@ -1762,11 +1762,11 @@ Reverse a string `"foo"`
 Reverse a string `a_string`
 Reverse a string `a_string`
 Reverse a string `s`
-generate a string of numbers separated by comma which is divisible by `4` with remainder `1` or `2`.
+generate a string of numbers separated by comma which is divisible by `4` with remainder `1` or `2`
 convert list `lst` of key, value pairs into a dictionary
 sorting a list of tuples `list_of_tuples` where each tuple is reversed
 sorting a list of tuples `list_of_tuples` by second key
-Concatenating two one-dimensional NumPy arrays `a` and `b`.
+Concatenating two one-dimensional NumPy arrays `a` and `b`
 writing items in list `thelist` to file `thefile`
 writing items in list `thelist` to file `thefile`
 serialize `itemlist` to file `outfile`
@@ -1794,7 +1794,7 @@ get index of the first biggest element in list `a`
 replace periods `.` that are not followed by periods or spaces with a period and a space `. `
 convert a string `a` of letters embedded in squared brackets into embedded lists
 extract dictionary `d` from list `a` where the value associated with the key `'name'` of dictionary `d` is equal to `'pluto'`
-extract dictionary from list of dictionaries based on a key's value.
+extract dictionary from list of dictionaries based on a key's value
 Retrieve list of values from dictionary `'d'`
 replace occurrences of two whitespaces or more with one whitespace `' '` in string `s`
 Change the mode of file `'my_script.sh'` to permission number `484`
@@ -1836,7 +1836,7 @@ get the path of the python module `amodule`
 fill list `myList` with `4` `0`'s
 drop duplicate indexes in a pandas data frame `df`
 unpack elements of list `i` as arguments into function `foo`
-generate list of numbers in specific format using string formatting precision.
+generate list of numbers in specific format using string formatting precision
 sort dictionary `mydict` in descending order based on the sum of each value in it
 get top `3` items from a dictionary `mydict` with largest sum of values
 get index of character `'b'` in list '['a', 'b']'
@@ -1895,7 +1895,7 @@ split string `"This is a string"` into words that do not contain whitespaces
 split string `"This     is a     string"` into words that does not contain whitespaces
 remove all duplicate items from a list `lseperatedOrblist`
 sum of product of combinations in a list `l`
-regular expression for validating string `'user'` containing a sequence of characters ending with `'-'` followed by any number of digits.
+regular expression for validating string `'user'` containing a sequence of characters ending with `'-'` followed by any number of digits
 convert all of the items in a list `lst` to float
 multiply all items in a list `[1, 2, 3, 4, 5, 6]` together
 write a tuple of tuples `A` to a csv file using python
@@ -1943,7 +1943,7 @@ get current requested url
 get a random item from list `choices`
 sum the length of all strings in a list `strings`
 sort a list `s` by first and second attributes
-sort a list of lists `s` by second and third element in each list.
+sort a list of lists `s` by second and third element in each list
 Mysql commit current transaction
 filtering out strings that contain `'ab'` from a list of strings `lst`
 find the first letter of each element in string `input`
@@ -1971,7 +1971,7 @@ create a 2D array of `Node` objects with dimensions `cols` columns and `rows` ro
 replace extension `'.txt'` in basename `'/home/user/somefile.txt'` with extension `'.jpg'`
 Set the resolution of a monitor as `FULLSCREEN` in pygame
 format float `3.5e+20`  to `$3.5 \\times 10^{20}$` and set as title of matplotlib plot `ax`
-Get the age of directory (or file) `/tmp` in seconds.
+Get the age of directory (or file) `/tmp` in seconds
 how to get month name of datetime `today`
 get month name from a datetime object `today`
 Convert nested list `x` into a flat list
@@ -1983,7 +1983,7 @@ delete the element `6` from list `a`
 delete the element `6` from list `a`
 delete the element `c` from list `a`
 delete the element `c` from list `a`
-Get all matching patterns `'a.*?a'` from a string `'a 1 a 2 a 3 a 4 a'`.
+Get all matching patterns `'a.*?a'` from a string `'a 1 a 2 a 3 a 4 a'`
 outer product of each column of a 2d `X` array to form a 3d array `X`
 Getting the last element of list `some_list`
 Getting the second to last element of list `some_list`
@@ -2052,7 +2052,7 @@ get the indexes of the x and y axes in Numpy array `np` where variable `a` is eq
 print letter that appears most frequently in string `s`
 find float number proceeding sub-string `par` in string `dir`
 Get all the matches from a string `abcd` if it begins with a character `a`
-get a list of variables from module `'adfix.py'` in current module.
+get a list of variables from module `'adfix.py'` in current module
 get the first element of each tuple in a list `rows`
 get a list `res_list` of the first elements of each tuple in a list of tuples `rows`
 duplicate data in pandas dataframe `x` for `5` times
@@ -2112,9 +2112,9 @@ split string `'happy_hats_for_cats'` using string `'_for_'`
 Split string `'sad_pandas_and_happy_cats_for_people'` based on string `'and'`, `'or'` or `'for'`
 Split a string `l` by multiple words `for` or `or` or `and`
 zip keys with individual values in lists `k` and `v`
-Sort a list `'lst'` in descending order.
+Sort a list `'lst'` in descending order
 sort array `order_array` based on column `'year'`, `'month'` and `'day'`
-Sort a structured numpy array `'df'` on multiple columns `'year'`, `'month'` and `'day'`.
+Sort a structured numpy array `'df'` on multiple columns `'year'`, `'month'` and `'day'`
 check if elements in list `my_list` are coherent in order
 group rows of pandas dataframe `df` with same `'id'`
 encode `u'X\xc3\xbcY\xc3\x9f'` as unicode and decode with `utf-8`
@@ -2123,7 +2123,7 @@ Parse String `s` to Float or Int
 check if object `a` has property `'property'`
 check if object `a` has property `'property'`
 get the value of attribute `'property'` of object `a` with default value `'default value'`
-delete every 8th column in a numpy array `'a'`.
+delete every 8th column in a numpy array `'a'`
 convert `ms` milliseconds to a datetime object
 find the magnitude (length) squared of a vector `vf` field
 request http url `url`
@@ -2234,7 +2234,7 @@ add `1` hour and `2` minutes to time object `t`
 subtract `5` hours from the time object `dt`
 encode string `data` using hex `'hex'` encoding
 Return the decimal value for each hex character in data `data`
-Get all the items from a list of tuple `'l'` where second item in tuple is `'1'`.
+Get all the items from a list of tuple `'l'` where second item in tuple is `'1'`
 Create array `a` containing integers from stdin
 place `'\'` infront of each non-letter char in string `line`
 Get all `a` tags where the text starts with value `some text` using regex
@@ -2292,7 +2292,7 @@ convert python dictionary `your_data` to json array
 assign an array of floats in range from `0` to `100` to a variable `values`
 sort a list of dictionaries `list_of_dct` by values in an order `order`
 change the case of the first letter in string `s`
-join list of numbers `[1,2,3,4]` to string of numbers.
+join list of numbers `[1,2,3,4]` to string of numbers
 delete every non `utf-8` characters from a string `line`
 execute a command `command ` in the terminal from a python script
 MySQL execute query `'SELECT * FROM foo WHERE bar = %s AND baz = %s'` with parameters `param1` and `param2`
