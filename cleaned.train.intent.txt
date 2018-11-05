@@ -1399,7 +1399,7 @@ convert list of sublists `lst` of floats to a list of sublists `str_list` of str
 Create a tuple `t` containing first element of each tuple in tuple `s`
 obtain the current day of the week in a `3` letter format from a datetime object
 get the ASCII value of a character `'a'` as an int
-get the ASCII value of a character u'あ' as an int
+get the ASCII value of a character `u'あ'` as an int
 get the ASCII value of a character as an int
 decode JSON string `u` to a dictionary
 Delete mulitple columns `columnheading1`, `columnheading2` in pandas data frame `yourdf`
