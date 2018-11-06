@@ -1,14 +1,14 @@
-python save list `mylist` to file object 'save.txt'
+python save list `mylist` to file object `'save.txt'`
 converting list of strings `intstringlist` to list of integer `nums`
-prepend the line '#test firstline\n' to the contents of file 'infile' and save as the file 'outfile'
-find duplicate names in column 'name' of the dataframe `x`
+prepend the line `'#test firstline\n'` to the contents of file `'infile'` and save as the file `'outfile'`
+find duplicate names in column `'name'` of the dataframe `x`
 convert a raw string `raw_byte_string` into a normal string
 Remove all strings from a list a strings `sents` where the values starts with `@$\t` or `#`
 sort a list of dictionaries `l` by values in key `name` in descending order
 get the type of `i`
 split string `text` by space
-add a column 'day' with value 'sat' to dataframe `df`
-encode string 'data to be encoded'
+add a column `'day'` with value `'sat'` to dataframe `df`
+encode string `'data to be encoded'`
 convert scalar `x` to array
 determine the type of variable `v`
 determine the type of variable `v`
@@ -19,24 +19,24 @@ convert a raw string `raw_string` into a normal string
 return a 401 unauthorized in django
 replace all occurences of newlines `\n` with `<br>` in dataframe `df`
 filter dataframe `df` by values in column `A` that appear more than once
-download a file "http://www.example.com/songs/mp3.mp3" over HTTP and save to "mp3.mp3"
-concatenate items of list `l` with a space ' '
-loop through the IP address range "192.168.x.x"
+download a file `"http://www.example.com/songs/mp3.mp3"` over HTTP and save to `"mp3.mp3"`
+concatenate items of list `l` with a space `' '`
+loop through the IP address range `"192.168.x.x"`
 modify sys.path for python module `subdir`
 Make a delay of 1 second
 combine lists `l1` and `l2`  by alternating their elements
 scatter a plot with x, y position of `np.random.randn(100)` and face color equal to none
-select rows in a dataframe `df` column 'closing_price' between two values 99 and 101
+select rows in a dataframe `df` column `'closing_price'` between two values 99 and 101
 Getting the length of `my_string`
-shuffle columns of an numpy array 'r'
-parse milliseconds epoch time '1236472051807' to format '%Y-%m-%d %H:%M:%S'
-Add key 'a' to dictionary `data` with value 1
+shuffle columns of an numpy array `r`
+parse milliseconds epoch time `'1236472051807'` to format `'%Y-%m-%d %H:%M:%S'`
+Add key `'a'` to dictionary `data` with value 1
 lower a string `text` and remove non-alphanumeric characters aside from space
-Add key "mynewkey" to dictionary `d` with value "mynewvalue"
+Add key `"mynewkey"` to dictionary `d` with value `"mynewvalue"`
 convert int values in list `numlist` to float
 Remove duplicate words from a string `text` using regex
-get all the elements except strings from the list 'lst'.
-create a DatetimeIndex containing 13 periods of the second friday of each month starting from date '2016-01-01'
+get all the elements except strings from the list `'lst'`.
+create a DatetimeIndex containing 13 periods of the second friday of each month starting from date `'2016-01-01'`
 create a new column `weekday` in pandas data frame `data` based on the values in column `my_dt`
 convert a string `123,456.908` with dot and comma into a floating number
 Sum the corresponding decimal values for binary values of each boolean element in list `x`
@@ -65,94 +65,94 @@ get elements from list `myList`, that have a field `n` value 30
 insert `_suff` before the file extension in `long.file.name.jpg` or replace `_a` with `suff` if it precedes the extension.
 initialize a list `lst` of 100 objects Object()
 identify duplicate values in list `mylist`
-get whatever is between parentheses as a single match, and any char outside as an individual match in string '(zyx)bc'
+get whatever is between parentheses as a single match, and any char outside as an individual match in string `'(zyx)bc'`
 get the position of item 1 in `testlist`
 reverse sort Counter `x` by values
-search for occurrences of regex pattern '>.*<' in xml string `line`
+search for occurrences of regex pattern `'>.*<'` in xml string `line`
 convert list `list_of_ints` into a comma separated string
 insert data from a string `testfield` to sqlite db `c`
 Iterate ove list `[1, 2, 3]` using list comprehension
-unpack a series of tuples in pandas into a DataFrame with column names 'out-1' and 'out-2'
+unpack a series of tuples in pandas into a DataFrame with column names `'out-1'` and `'out-2'`
 check if object `o` is a string
 get a list from a list `lst` with values mapped into a dictionary `dct`
 extract a url from a string `myString`
-write the elements of list `lines` concatenated by special character '\n' to file `myfile`
-Find all files in directory "/mydir" with extension ".txt"
+write the elements of list `lines` concatenated by special character `'\n'` to file `myfile`
+Find all files in directory `"/mydir"` with extension `".txt"`
 remove elements from list `oldlist` that have an index number mentioned in list `removelist`
 Django response with JSON `data`
 choose a random file from the directory contents of the C drive, `C:\\`
 remove all special characters, punctuation and spaces from a string `mystring` using regex
 Insert item `12` to a list `my_list`
-split string `text` by ","
+split string `text` by `","`
 reload a module `module`
-count the occurrences of item "b" in list `l`
+count the occurrences of item `"b"` in list `l`
 Removing duplicates in list `t`
-Flask set folder 'wherever' as the default template folder
+Flask set folder `'wherever'` as the default template folder
 append items in list `mylog` to `list1`
 Getting the length of array `l`
-search for string that matches regular expression pattern '(?<!Distillr)\\\\AcroTray\\.exe' in string 'C:\\SomeDir\\AcroTray.exe'
+search for string that matches regular expression pattern `'(?<!Distillr)\\\\AcroTray\\.exe'` in string `'C:\\SomeDir\\AcroTray.exe'`
 loop over files in directory `source`
 download the file from url `url` and save it under file `file_name`
 replace all elements in array `A` that are not present in array `[1, 3, 4]` with zeros
 count the number of keys in dictionary `yourdictfile`
 check if a pandas dataframe `df`'s index is sorted
-read a file 'C:/name/MyDocuments/numbers' into a list `data`
+read a file `'C:/name/MyDocuments/numbers'` into a list `data`
 sort a list of objects `ut` in reverse order by their `count` property
 concatenate array of strings `['A', 'B', 'C', 'D']` into a string
 convert list of string numbers into list of integers
-copy all values in a column 'B' to a new column 'D' in a pandas data frame 'df'
+copy all values in a column `'B'` to a new column `'D'` in a pandas data frame `df`
 double backslash escape all double quotes in string `s`
 Add indexes in a data frame `df` to a column `index1`
 Use a regex to get all text in a string `example_str` that is not surrounded by square brackets
 get the position of item 1 in `testlist`
 match urls whose domain doesn't start with `t` from string `document` using regex
 Split a multi-line string ` a \n b \r\n c ` by new line character `\n`
-loop over files in directory '.'
-sort a list `l` of dicts by dict value 'title'
+loop over files in directory `'.'`
+sort a list `l` of dicts by dict value `'title'`
 join each element in array `a` with element at the same index in array `b` as a tuple
 download a file `url` over HTTP
-write line "hi there" to file `myfile`
-sort a list of lists 'c2' such that third row comes first
+write line `"hi there"` to file `myfile`
+sort a list of lists `c2` such that third row comes first
 enable debug mode on Flask application `app`
-convert hex string '470FC614' to a float number
-delete all characters "i" in string "it is icy"
+convert hex string `'470FC614'` to a float number
+delete all characters `"i"` in string `"it is icy"`
 get the date 7 days before the current date
-join together with "," elements inside a list indexed with 'category' within a dictionary `trans`
+join together with `","` elements inside a list indexed with `'category'` within a dictionary `trans`
 Get all urls within text `s`
 split a string `Docs/src/Scripts/temp` by `/` keeping `/` in the result
-decode string "\\x89\\n" into a normal string
-extract attributes 'src="js/([^"]*\\bjquery\\b[^"]*)"' from string `data`
+decode string `"\\x89\\n"` into a normal string
+extract attributes `'src="js/([^"]*\\bjquery\\b[^"]*)"'` from string `data`
 reverse the list that contains 1 to 10
 use `%s` operator to print variable values `str1` inside a string
 set font `Arial` to display non-ascii characters in matplotlib
-remove key 'ele' from dictionary `d`
+remove key `'ele'` from dictionary `d`
 Get a list of integers `lst` from a file `filename.txt`
-Django get maximum value associated with field 'added' in model `AuthorizedEmail`
+Django get maximum value associated with field `'added'` in model `AuthorizedEmail`
 display the float `1/3*100` as a percentage
 group a list of dicts `LD` into one dict by key
-subscript text 'H20' with '2' as subscripted in matplotlib labels for arrays 'x' and 'y'.
-click a href button 'Send' with selenium
-split string 'QH QD JC KD JS' into a list on white spaces
+subscript text `'H20'` with `'2'` as subscripted in matplotlib labels for arrays `x` and `y`.
+click a href button `'Send'` with selenium
+split string `'QH QD JC KD JS'` into a list on white spaces
 cut off the last word of a sentence `content`
-concatenate elements of list `b` by a colon ":"
+concatenate elements of list `b` by a colon `":"`
 make a comma-separated string from a list `myList`
-Google App Engine execute GQL query 'SELECT * FROM Schedule WHERE station = $1' with parameter `foo.key()`
-split string `input` based on occurrences of regex pattern '[ ](?=[A-Z]+\\b)'
+Google App Engine execute GQL query `'SELECT * FROM Schedule WHERE station = $1'` with parameter `foo.key()`
+split string `input` based on occurrences of regex pattern `'[ ](?=[A-Z]+\\b)'`
 read keyboard-input
-filter rows in pandas starting with alphabet 'f' using regular expression.
-sort a list of dictionaries by the value of keys 'title', 'title_url', 'id' in ascending order.
+filter rows in pandas starting with alphabet `'f'` using regular expression.
+sort a list of dictionaries by the value of keys `'title'`, `'title_url'`, `'id'` in ascending order.
 reverse sort counter `x` by value
 rotate the xtick labels of matplotlib plot `ax` by `45` degrees to make long labels readable
 convert a pandas series `sf` into a pandas dataframe `df` with columns `email` and `list`
 convert string `user_input` into a list of integers `user_list`
 Sort lis `list5` in ascending order based on the degrees value of its elements
-Create new DataFrame object by merging columns "key" of  dataframes `split_df` and `csv_df` and rename the columns from dataframes `split_df` and `csv_df` with suffix `_left` and `_right` respectively
+Create new DataFrame object by merging columns `"key"` of  dataframes `split_df` and `csv_df` and rename the columns from dataframes `split_df` and `csv_df` with suffix `_left` and `_right` respectively
 Print new line character as `\n` in a string `foo\nbar`
 sort list `list_of_strings` based on second index of each string `s`
 Split string `line` into a list by whitespace
-joining data from dataframe `df1` with data from dataframe `df2` based on matching values of column 'Date_Time' in both dataframes
+joining data from dataframe `df1` with data from dataframe `df2` based on matching values of column `'Date_Time'` in both dataframes
 replace all occurrences of a string `\n` by string `<br>` in a pandas data frame `df`
 convert a list of lists `L` to list of integers
-split string `s` by words that ends with 'd'
+split string `s` by words that ends with `'d'`
 length of longest element in list `words`
 sum elements at the same index in list `data`
