@@ -8,7 +8,7 @@ Add key `'a'` to dictionary `data` with value 1
 get the 5th item of a generator
 check if a directory `path` exists and create it if necessary
 convert a urllib unquoted string `unescaped` to a json data `json_data`
-How do I INSERT INTO t1 (SELECT * FROM t2) in SQLAlchemy?
+How do I `'INSERT INTO t1 (SELECT * FROM t2)'` in `SQLAlchemy`?
 remove key `'c'` from dictionary `d`
 merge list `['it']` and list `['was']` and list `['annoying']` into one list
 change working directory to the directory `owd`
