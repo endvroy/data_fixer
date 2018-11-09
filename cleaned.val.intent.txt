@@ -13,34 +13,34 @@ convert scalar `x` to array
 determine the type of variable `v`
 determine the type of variable `v`
 check if object `o` is a string
-find 10 largest differences between each respective elements of list `l1` and list `l2`
+find `10` largest differences between each respective elements of list `l1` and list `l2`
 check characters of string `string` are true predication of function `predicate`
 convert a raw string `raw_string` into a normal string
-return a 401 unauthorized in django
+return a `401` unauthorized in django
 replace all occurences of newlines `\n` with `<br>` in dataframe `df`
 filter dataframe `df` by values in column `A` that appear more than once
 download a file `"http://www.example.com/songs/mp3.mp3"` over HTTP and save to `"mp3.mp3"`
 concatenate items of list `l` with a space `' '`
 loop through the IP address range `"192.168.x.x"`
 modify sys.path for python module `subdir`
-Make a delay of 1 second
+Make a delay of `1` second
 combine lists `l1` and `l2`  by alternating their elements
 scatter a plot with x, y position of `np.random.randn(100)` and face color equal to none
-select rows in a dataframe `df` column `'closing_price'` between two values 99 and 101
+select rows in a dataframe `df` column `'closing_price'` between two values `99` and `101`
 Getting the length of `my_string`
 shuffle columns of an numpy array `r`
 parse milliseconds epoch time `'1236472051807'` to format `'%Y-%m-%d %H:%M:%S'`
-Add key `'a'` to dictionary `data` with value 1
+Add key `'a'` to dictionary `data` with value `1`
 lower a string `text` and remove non-alphanumeric characters aside from space
 Add key `"mynewkey"` to dictionary `d` with value `"mynewvalue"`
 convert int values in list `numlist` to float
 Remove duplicate words from a string `text` using regex
 get all the elements except strings from the list `'lst'`.
-create a DatetimeIndex containing 13 periods of the second friday of each month starting from date `'2016-01-01'`
+create a DatetimeIndex containing `13` periods of the second friday of each month starting from date `'2016-01-01'`
 create a new column `weekday` in pandas data frame `data` based on the values in column `my_dt`
 convert a string `123,456.908` with dot and comma into a floating number
 Sum the corresponding decimal values for binary values of each boolean element in list `x`
-Update datetime field in `MyModel` to be the existing `timestamp` plus 100 years
+Update datetime field in `MyModel` to be the existing `timestamp` plus `100` years
 sum elements at index `column` of each list in list `data`
 remove any url within string `text`
 Send a post request with raw data `DATA` and basic authentication with `username` and `password`
@@ -61,12 +61,12 @@ determine number of files on a drive with python
 flatten list `list_of_menuitems`
 reverse sort list of dicts `l` by value for key `time`
 Create a list containing all ascii characters as its elements
-get elements from list `myList`, that have a field `n` value 30
+get elements from list `myList`, that have a field `n` value `30`
 insert `_suff` before the file extension in `long.file.name.jpg` or replace `_a` with `suff` if it precedes the extension.
-initialize a list `lst` of 100 objects Object()
+initialize a list `lst` of `100` objects Object()
 identify duplicate values in list `mylist`
 get whatever is between parentheses as a single match, and any char outside as an individual match in string `'(zyx)bc'`
-get the position of item 1 in `testlist`
+get the position of item `1` in `testlist`
 reverse sort Counter `x` by values
 search for occurrences of regex pattern `'>.*<'` in xml string `line`
 convert list `list_of_ints` into a comma separated string
@@ -104,7 +104,7 @@ copy all values in a column `'B'` to a new column `'D'` in a pandas data frame `
 double backslash escape all double quotes in string `s`
 Add indexes in a data frame `df` to a column `index1`
 Use a regex to get all text in a string `example_str` that is not surrounded by square brackets
-get the position of item 1 in `testlist`
+get the position of item `1` in `testlist`
 match urls whose domain doesn't start with `t` from string `document` using regex
 Split a multi-line string ` a \n b \r\n c ` by new line character `\n`
 loop over files in directory `'.'`
@@ -116,13 +116,13 @@ sort a list of lists `c2` such that third row comes first
 enable debug mode on Flask application `app`
 convert hex string `'470FC614'` to a float number
 delete all characters `"i"` in string `"it is icy"`
-get the date 7 days before the current date
+get the date `7` days before the current date
 join together with `","` elements inside a list indexed with `'category'` within a dictionary `trans`
 Get all urls within text `s`
 split a string `Docs/src/Scripts/temp` by `/` keeping `/` in the result
 decode string `"\\x89\\n"` into a normal string
 extract attributes `'src="js/([^"]*\\bjquery\\b[^"]*)"'` from string `data`
-reverse the list that contains 1 to 10
+reverse the list that contains `1` to `10`
 use `%s` operator to print variable values `str1` inside a string
 set font `Arial` to display non-ascii characters in matplotlib
 remove key `'ele'` from dictionary `d`

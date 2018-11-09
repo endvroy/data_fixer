@@ -4,7 +4,7 @@ click a href button with text `'Send InMail'` with selenium
 Sort dictionary `o` in ascending order based on its keys and items
 increment a value with leading zeroes in a number `x`
 numpy concatenate two arrays `a` and `b` along the second axis
-Add key `'a'` to dictionary `data` with value 1
+Add key `'a'` to dictionary `data` with value `1`
 get the 5th item of a generator
 check if a directory `path` exists and create it if necessary
 convert a urllib unquoted string `unescaped` to a json data `json_data`
@@ -18,14 +18,14 @@ get the type of variable `variable_name`
 Get reverse of list items from list `b` using extended slicing
 add a header to a csv file
 django filter by hour
-get the largest key whose not associated with value of 0 in dictionary `x`
+get the largest key whose not associated with value of `0` in dictionary `x`
 write line `"Hello"` to file `somefile.txt`
 append list `a` to `c`
 replace each `'a'` with `'b'` and each `'b'` with `'a'` in the string `'obama'` in a single pass.
 formate each string cin list `elements` into pattern `'%{0}%'`
 loop through the IP address range `"192.168.x.x"`
 open a file `Output.txt` in append mode
-selecting rows in Numpy ndarray `a`, where the value in the first column is 0 and value in the second column is 1
+selecting rows in Numpy ndarray `a`, where the value in the first column is `0` and value in the second column is `1`
 split a string into a list of words and whitespace
 get list of values from dictionary `mydict` w.r.t. list of keys `mykeys`
 numpy concatenate two arrays `a` and `b` along the first axis
@@ -35,16 +35,16 @@ print a 2 dimensional list `tab` as a table with delimiters
 delete all occurrences of character `'i'` in string `'it is icy'`
 check if a directory `path` exists and create it if necessary
 get the html from the current web page of a Selenium driver
-convert index at level 0 into a column in dataframe `df`
+convert index at level `0` into a column in dataframe `df`
 create list `lst` containing 100 instances of object `Object`
 Convert the first row of numpy matrix `a` to a list
 find the index of a list with the first element equal to `'332'` within the list of lists `thelist`
 calculate mean across dimension in a 2d array `a`
 create a datetime with the current date & time
 sort list `li` in descending order based on the date value in second element of each list in list `li`
-get the position of item 1 in `testlist`
+get the position of item `1` in `testlist`
 remove duplicate elements from list `'L'`
-fetch address information for host `'google.com'` ion port 80
+fetch address information for host `'google.com'` ion port `80`
 find the key associated with the largest value in dictionary `x` whilst key is non-zero value
 Convert  DateTime column `'date'` of pandas dataframe `df` to ordinal
 Convert unix timestamp `'1347517370'` to formatted string `'%Y-%m-%d %H:%M:%S'`
@@ -80,7 +80,7 @@ run r script `'/usr/bin/Rscript --vanilla /pathto/MyrScript.r'`
 Find last occurrence of character `'}'` in string `"abcd}def}"`
 create list `y` containing two empty lists
 determine the type of variable `v`
-truncate float 1.923328437452 to 3 decimal places
+truncate float `1.923328437452` to `3` decimal places
 running r script `'/pathto/MyrScript.r'` from python
 get the value associated with unicode key `'from_user'` of first dictionary in list `result`
 replace dot characters  `'.'` associated with ascii letters in list `s` with space `' '`
@@ -95,7 +95,7 @@ check if a directory `path` exists and create it if necessary
 find all words in a string `mystring` that start with the `$` sign
 Create new matrix object  by concatenating data from matrix A and matrix B
 click a href button having text `Send InMail` with selenium
-loop over a list `mylist` if sublists length equals 3
+loop over a list `mylist` if sublists length equals `3`
 determine the type of variable `v`
 python regex  to find all numbers and dots from `'text'`
 convert a string into datetime using the format `'%Y-%m-%d %H:%M:%S.%f'`
@@ -103,7 +103,7 @@ python regex - check for a capital letter with a following lowercase in string `
 Convert list of lists `data` into a flat list
 extract all the values with keys `'x'` and `'y'` from a list of dictionaries `d` to list of tuples
 create a dictionary by adding each two adjacent elements in tuple `x` as key/value pair to it
-place the radial ticks in plot `ax` at 135 degrees
+place the radial ticks in plot `ax` at `135` degrees
 count the occurrences of item `"a"` in list `l`
 Call a subprocess with arguments `'c:\\Program Files\\VMware\\VMware Server\\vmware-cmd.bat'` that may contain spaces
 write bytes `bytes_` to a file `filename` in python 3
@@ -158,7 +158,7 @@ do a scatter plot with empty circles
 Print a string `word` with string format
 convert each tuple in list `l` to a string with `'@'` separating the tuples' elements
 count the occurrences of items in list `l`
-get the position of item 1 in `testlist`
+get the position of item `1` in `testlist`
 add an entry `'wuggah'` at the beginning of list `myList`
 remove substring `'bag,'` from a string `'lamp, bag, mirror'`
 loop through the IP address range `"192.168.x.x"`
@@ -206,7 +206,7 @@ make a barplot of data in column `group` of dataframe `df` colour-coded accordin
 encode a string `data to be encoded` to `ascii` encoding
 concatenate a list of strings `['a', 'b', 'c']`
 convert unicode string `s` to ascii
-Round number `answer` to 2 precision after the decimal point
+Round number `answer` to `2` precision after the decimal point
 find the string in `your_string` between two special characters `"["` and `"]"`
 find maximal value in matrix `matrix`
 get the first object from a queryset in django model `Entry`
@@ -234,7 +234,7 @@ generate all 2-element subsets of tuple `(1, 2, 3)`
 unzip list `original` and return a generator
 get a list of all keys in Cassandra database `cf` with pycassa
 get the position of item `element` in list `testlist`
-get the item at index 0 from the tuple that has maximum value at index 1 in list `lis`
+get the item at index `0` from the tuple that has maximum value at index `1` in list `lis`
 run script `'hello.py'` with argument `'htmlfilename.htm'` on terminal using python executable
 Get all matches with regex pattern `\\d+[xX]` in list of string `teststr`
 get a dictionary `records` of key-value pairs in PyMongo cursor `cursor`
@@ -245,7 +245,7 @@ convert unicode string u"{'code1':1,'code2':1}" into dictionary
 substitute ASCII letters in string `'aas30dsa20'` with empty string `''`
 remove directory tree `'/folder_name'`
 delete all instances of a character `'i'` in a string `'it is icy'`
-Create multidimensional array `matrix` with 3 rows and 2 columns in python
+Create multidimensional array `matrix` with `3` rows and `2` columns in python
 Convert array `a` into a list
 Insert directory `'apps'` into directory `__file__`
 In `soup`, get the content of the sibling of the `td`  tag with text content `Address:`
@@ -273,7 +273,7 @@ Convert list `t` to tuple
 Get the integer location of a key `bob` in a pandas data frame
 reverse the keys and values in a dictionary `myDictionary`
 upload file using FTP
-add an item with key `'third_key'` and value 1 to an dictionary `my_dict`
+add an item with key `'third_key'` and value `1` to an dictionary `my_dict`
 get sorted list of keys of dict `d`
 Replace a separate word `'H3'` by `'H1'` in a string `'text'`
 cast an int `i` to a string and concat to string `'ME'`
@@ -294,7 +294,7 @@ split a string `mystring` considering the spaces `' '`
 Create 3d array of zeroes of size `(3,3,3)`
 format number of spaces between strings `Python`, `:` and `Very Good` to be `20`
 calculate the mean of each element in array `x` with the element previous to it
-get the position of item 1 in `testlist`
+get the position of item `1` in `testlist`
 open a `'gnome'` terminal from python script and run  `'sudo apt-get update'` command.
 Create a list containing the indexes of rows where the value of column `'BoolCol'` in dataframe `df` are equal to True
 Get a list of integers by splitting  a string `user` with comma

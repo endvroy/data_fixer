@@ -120,7 +120,7 @@ add key `"item3"` and value `"3"` to dictionary `default_data `
 add key value pairs `'item4'` , `4` and `'item5'` , `5` to dictionary `default_data`
 Get the first and last `3` elements of list `l`
 reset index to default in dataframe `df`
-For each index `x` from `0` to 3, append the element at index `x` of list `b` to the list at index `x` of list a
+For each index `x` from `0` to `3`, append the element at index `x` of list `b` to the list at index `x` of list a
 get canonical path of the filename `path`
 check if dictionary `L[0].f.items()` is in dictionary `a3.f.items()`
 find all the indexes in a Numpy 2D array where the value is `1`
