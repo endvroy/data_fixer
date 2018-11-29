@@ -1,0 +1,300 @@
+find next sibling element in python selenium
+how to select element with selenium python xpath
+how to delete a record in django models
+python dots in the name of variable in a format string
+removing key values pairs from a list of dictionaries
+clicking a link using selenium using python
+how to find the index of a value in 2d array in python
+setting stack size in a python script
+url encoding in python
+how to find all occurrences of an element in a list
+how to get the concrete class name as a string
+convert a string to integer with decimal in python
+how do i create a list of unique random numbers
+how to use the mv command in python with subprocess
+how to delete a character from a string using python
+convert binary string to list of integers using python
+how to sort a dictionary in python by value when the value is a list and i want to sort it by the first index of that list
+combine two pandas dataframes with the same index
+creating a list of dictionaries in python
+python remove special character from string
+how do i convert datetime to date in python
+how can i split and parse a string in python
+convert list of tuples to multiple lists in python
+convert list of tuples to multiple lists in python
+how to download a file via ftp with python ftplib
+how to plot with x-axis at the top of the figure
+python split string based on regular expression
+how to plot two columns of a pandas data frame using points
+how to get a function name as a string in python
+list of lists into numpy array
+python json encoding
+replace all non-alphanumeric characters in a string
+python getting a list of value from list of dict
+python getting a list of value from list of dict
+how to uniqify a list of dict in python
+execute shell script from python with variable
+how to get yesterday in python
+regular expression in python sentence extractor
+can i sort text by its numeric value in python
+how to exclude a character from a regex group
+python regular expression match whole word
+python: extract numbers from a string
+sort pandas dataframe by date
+how to get the length of words in a sentence
+how to sort a list according to another list
+how to get output of exe in python script
+sorting while preserving order in python
+how to get only the last part of a path in python
+list of all unique characters in a string
+upload file with python mechanize
+pandas: how can i use the apply() function for a single column
+how to group similar items in a list
+python date string formatting
+summing across rows of pandas dataframe
+how can i compare two lists in python and return matches
+extract digits in a simple way from a python string
+can a python script execute a function inside a bash script
+how can i resize the root window in tkinter
+slicing a list into a list of sub-lists
+how to split a string into integers in python
+how to write a unicode csv in python 2.7
+how do i read the first line of a string
+fastest way to sort each row in a pandas dataframe
+finding the largest delta between two integers in a list in python
+python selenium click on button
+what is the best way to sort list with custom sorting parameters in python
+what is the most pythonic way to exclude elements of a list that start with a specific character
+python: convert a string to an integer
+how do i sort a zipped list in python
+python pandas: apply a function with arguments to a series
+convert date string to day of week
+how to use variables in sql statement in python
+how do i get rid of python tkinter root window
+how do i find an element that contains specific text in selenium webdriver python
+how can i launch an instance of an application using python
+how to erase the file contents of text file in python
+sort dict by value python
+split dictionary of lists into list of dictionaries
+calling an external command <STR_LITERAL>
+sum of all values in a python dict
+print a string after a specific substring <STR_LITERAL> in string <VAR>
+get the indices of tuples in list of tuples <VAR> where the first value is <NUM>
+get file <STR_LITERAL>
+converting byte string <VAR> in unicode string
+remove uppercased characters in string <VAR>
+replace non-ascii characters in string <VAR> with a single space
+sort list <VAR> with positives coming before negatives with values sorted respectively
+convert string <VAR> from iso-8859-1/latin1 to <VAR>
+get a list comprehension in list of lists <VAR>
+output data of the first <NUM> columns of pandas dataframe
+declare an array <VAR>
+selenium get the entire <VAR> page text
+get value of the environment variable <STR_LITERAL> with default value <STR_LITERAL>
+iterate over a dictionary <VAR> in sorted order
+append array of strings <VAR> into one string
+remove white space padding around a saved image <VAR> in matplotlib
+define a list with string values <VAR>
+upload uploaded file from path <STR_LITERAL> to google cloud storage <STR_LITERAL> bucket
+convert hex string <STR_LITERAL> to integer
+set every two-stride far element to <NUM> starting from second element in array <VAR>
+randomly switch letters' cases in string <VAR>
+parse datetime object <VAR> using format <STR_LITERAL>
+get user input using message <STR_LITERAL> and insert it to the first placeholder in string <STR_LITERAL>
+django redirect to view <STR_LITERAL>
+run <STR_LITERAL> file with python location <STR_LITERAL> and arguments <STR_LITERAL> as a subprocess
+insert <STR_LITERAL> between every three digit before <STR_LITERAL> and replace <STR_LITERAL> with <STR_LITERAL> in <NUM>
+convert a unicode string <VAR> to a <STR_LITERAL> string
+get all combination of n binary values
+decode a urllib escaped url string <VAR> with <VAR>
+limit float <NUM> to two decimal points
+selenium webdriver switch to frame <STR_LITERAL>
+sort each row in a pandas dataframe <VAR> in descending order
+create a dictionary <VAR> from list <VAR>
+best way to extract subset of key-value pairs with keys matching <STR_LITERAL> <STR_LITERAL> or <STR_LITERAL> from python dictionary object
+remove duplicates elements from list <VAR> and sort it in ascending order
+convert pandas group by object to multi-indexed dataframe with indices <STR_LITERAL> and <STR_LITERAL>
+sqlalchemy count the number of rows in table <VAR>
+un-escaping characters in a string with python
+parse string <VAR> to int when string contains a number
+use regular expression <STR_LITERAL> to split string <VAR>
+get the path of the current python module
+convert datetime.date <VAR> to utc timestamp
+print <STR_LITERAL> to console and read user input to <VAR>
+check if all elements in list <VAR> are the same
+find all digits in string <STR_LITERAL> and put them to a list
+round number <VAR> to nearest integer
+skip the newline while printing <VAR>
+count the number of pairs in dictionary <VAR> whose value equal to <VAR>
+jinja parse datetime object <VAR> to use format pattern <VAR>
+insert directory <STR_LITERAL> at the 0th index of current directory
+create a pandas data frame from list of nested dictionaries <VAR>
+remove all instances of <VAR> from a list <VAR>
+get a new string including the last two characters of string <VAR>
+create a slice object using string <VAR>
+get index of elements in array <VAR> that occur in another array <VAR>
+find the string matches within parenthesis from a string <VAR> using regex
+convert a unicode string <VAR> to a <STR_LITERAL> string
+empty a list <VAR>
+execute sql statement <VAR> with values of dictionary <VAR> as parameters
+convert a list of strings <VAR> to list of integers
+replace repeated instances of a character <STR_LITERAL> with a single instance in a string <STR_LITERAL>
+get a list of all subdirectories in the directory <VAR>
+sum the products of each two elements at the same index of list <VAR> and list <VAR>
+add column <VAR> to index of dataframe <VAR>
+generate a random integer between <NUM> and <NUM>
+remove anything in parenthesis from string <VAR> with a regex
+sort dictionary <VAR> by value in descending order
+match zero-or-more instances of lower case alphabet characters in a string <VAR>
+save current figure to file <STR_LITERAL> with resolution of <NUM> dpi
+read file <STR_LITERAL> line by line into a list <VAR>
+reverse a list <VAR>
+convert ndarray with shape <NUM> x`3` to array
+print letter that appears most frequently in string <VAR>
+check if dictionary <VAR> contains all keys in list <VAR>
+trimming a string <STR_LITERAL>
+get absolute folder path and filename for file <VAR>
+find all occurrences of a substring in a string
+draw node labels <VAR> on networkx graph <VAR> at position <VAR>
+pandas dataframe how do i split a column <STR_LITERAL> into two <STR_LITERAL> and <STR_LITERAL> on delimiter <STR_LITERAL>
+print <STR_LITERAL>
+fetch smilies matching regex pattern <STR_LITERAL> in string <VAR>
+check if any values in a list <VAR> is a list
+open file <STR_LITERAL> in read mode with encoding of <STR_LITERAL>
+converting string lists <VAR> to float list
+get current requested url
+convert hex string <STR_LITERAL> to integer
+split each string in list <VAR> on the tab character
+set environment variable <STR_LITERAL> equal to <NUM>
+close the window in tkinter
+strip punctuation from string <VAR>
+create datetime object from <STR_LITERAL>
+concatenate elements of a list <STR_LITERAL> of multiple integers to a single integer
+parsing html string <VAR> using beautifulsoup
+get the row names from index in a pandas data frame
+return a random word from a word list <STR_LITERAL>
+find href value that has string <STR_LITERAL> inside it
+calling an external command <STR_LITERAL>
+get the name of function <VAR> as a string
+create <NUM> by <NUM> matrix of random numbers
+convert a pandas <VAR> groupby object to dataframe
+change directory to the directory of a python script
+get last day of the second month in <NUM>
+remove all instances of <VAR> from list <VAR>
+remove <NUM> symbols in front of <STR_LITERAL> in string <STR_LITERAL>
+if selenium textarea element <VAR> is not empty clear the field
+append a pandas series <VAR> to the series <VAR> and get a continuous index
+request url <VAR> using http header <VAR>
+parse string <STR_LITERAL> to datetime object using format <STR_LITERAL>
+get all the values in key <VAR> summed from a list of dictionary <VAR>
+append line <STR_LITERAL> to file <STR_LITERAL>
+get the dimensions of numpy array <VAR>
+how to convert a date string <STR_LITERAL> in format <STR_LITERAL> to different format <STR_LITERAL>
+sort list <VAR> in alphabetical order based on the letter after percent character <VAR> in each element
+get current time in pretty format
+call parent class <VAR> of child class constructor
+remove adjacent duplicate elements from a list <VAR>
+check if key <STR_LITERAL> in <VAR>
+replace character <STR_LITERAL> with character <STR_LITERAL> and character <STR_LITERAL> with character <STR_LITERAL> in file <VAR>
+throw a runtime error with message <STR_LITERAL>
+limit float <NUM> to two decimal points
+get a list of locally installed python modules
+divide elements in list <VAR> from elements at the same index in list <VAR>
+find all keys from a dictionary <VAR> whose values are <VAR>
+replace each value in column <STR_LITERAL> of dataframe <VAR> with string <STR_LITERAL>
+sort the values of the dataframe <VAR> and align the columns accordingly based on the obtained indices after <VAR>
+create file <STR_LITERAL> if file <STR_LITERAL> does not exist
+sort a list of lists <VAR> by second and third element in each list
+run python script <STR_LITERAL> from another python script passing in <NUM> as an argument
+import all classes from module <VAR>
+replacing <STR_LITERAL> with <STR_LITERAL> in a string using regular expressions
+iterate over a dictionary <VAR> in sorted order
+filter dictionary <VAR> to have items with value greater than <NUM>
+get a name of function <VAR> as a string
+throw a value error with message <STR_LITERAL> <STR_LITERAL> <STR_LITERAL> <STR_LITERAL>
+create variable key/value pairs with argparse
+get value of environment variable <STR_LITERAL>
+merge a list of integers <VAR> into a single integer
+sort list <VAR> by second element of each tuple in ascending and third element of each tuple in descending
+print the truth value of <VAR>
+reverse a string <VAR> by <NUM> characters at a time
+split string <STR_LITERAL> based on string <STR_LITERAL> <STR_LITERAL> or <STR_LITERAL>
+find button that is in li class <VAR> and assign it to variable <VAR>
+execute file <STR_LITERAL>
+getting every possible combination of two elements in a list
+empty a list <VAR>
+replace parentheses and all data within it with empty string <STR_LITERAL> in column <STR_LITERAL> of dataframe <VAR>
+create sub matrix of a list of lists <VAR> without numpy
+calling an external command <STR_LITERAL>
+check if string <VAR> starts with a number
+get rank of rows from highest to lowest of dataframe <VAR> grouped by value in column <VAR> according to value in column <VAR>
+dropping all columns named <STR_LITERAL> from a multiindex <STR_LITERAL> across all level
+replace values of dataframe <VAR> with true if numeric
+replace the last occurence of an expression <STR_LITERAL> with <STR_LITERAL> in a string <VAR>
+split a string <VAR> using both commas and semicolons as delimeters
+convert generator object to a dictionary
+change nan values in dataframe <VAR> using preceding values in the frame
+set the size of figure <VAR> in inches to width height of <VAR> <VAR>
+get a list <VAR> of array slices of the first two rows and columns from array <VAR>
+change the state of the tkinter <VAR> widget to read only i.e <VAR>
+combining rows in pandas by adding their values
+get modified time of file <VAR>
+convert a list of lists <VAR> to a dictionary with key as second value of a list and value as list itself
+print the number of occurences of not <VAR> in a list <VAR> in python 2
+drop duplicate indexes in a pandas data frame <VAR>
+get everything after last slash in a url stored in variable <STR_LITERAL>
+load the url <VAR> in selenium webdriver <VAR>
+open a file <VAR> in binary write mode
+multiply column <STR_LITERAL> and column <STR_LITERAL> by column <STR_LITERAL> in datafram <VAR>
+read csv file <STR_LITERAL> into a dataframe <VAR> with datatype of float for column <STR_LITERAL> considering character <STR_LITERAL> as nan value
+lookup dictionary key <VAR> in django template <VAR>
+return rows of data associated with the maximum value of column <STR_LITERAL> in dataframe <VAR>
+sort a list of tuples <VAR> by second parameter in the tuple
+execute os command <VAR>
+reverse a list <VAR>
+move dictionaries in list <VAR> to the end of the list if value of key <STR_LITERAL> in each dictionary is not equal to <STR_LITERAL>
+find consecutive segments from a column <STR_LITERAL> in a pandas data frame <STR_LITERAL>
+create a list containing the multiplication of each elements at the same index of list <VAR> and list <VAR>
+get only first element in each of the innermost of the multidimensional list <VAR>
+set index equal to field <STR_LITERAL> in dataframe <VAR>
+parse string <STR_LITERAL> according to format <STR_LITERAL>
+get all indexes of boolean numpy array where boolean value <VAR> is true
+find all substrings in <VAR> beginning and ending with square brackets
+copy list <VAR> as <VAR>
+plot data of column <STR_LITERAL> versus column <STR_LITERAL> of dataframe <VAR> after resetting its index
+print a character that has unicode value <VAR>
+retrieve list of values from dictionary <STR_LITERAL>
+get current script directory
+terminating a python script with error message <STR_LITERAL>
+get current time in string format
+get http header of the key <STR_LITERAL> in flask
+strip and split each line <VAR> on white spaces
+get a list of the row names from index of a pandas data frame
+convert pandas dataframe <VAR> to a dictionary using <VAR> field as the key
+check if type of a variable <VAR> is string
+search for string <STR_LITERAL> in txt file <STR_LITERAL>
+replace percent-encoded code in request <VAR> to their single-character equivalent
+encode string <VAR> to <VAR> code
+check if object <VAR> has property <STR_LITERAL>
+get index values of pandas dataframe <VAR> as list
+split string <VAR> based on white spaces
+parse a file <VAR> using expat parsing in python 3
+reverse sort items in dictionary <VAR> by value
+fill list <VAR> with <NUM> <NUM> 's
+get a sum of all values from key <VAR> in a list of dictionary <VAR>
+replace a string <VAR> in case sensitive way using maketrans
+reverse a list <VAR>
+select the last business day of the month for each month in <NUM> in pandas
+summing the second item in a list of lists of lists
+writing items in list <VAR> to file <VAR>
+parse date string <STR_LITERAL> using format <STR_LITERAL>
+create numpy array of <NUM> numbers starting from <NUM> with interval of <NUM>
+subtract <NUM> hours from the time object <VAR>
+remove letters from string <VAR> if the letter exist in list <VAR>
+sympy solve matrix of linear equations <VAR> with variables <VAR>
+multiply the columns of sparse matrix <VAR> by array <VAR> then multiply the rows of the resulting matrix by array <VAR>
+join list of numbers <VAR> to string of numbers
+loop through <VAR> with step <NUM>
+replace placeholders in string <STR_LITERAL> with arguments <VAR>
+sort list <VAR> by each element's attribute <VAR> and attribute <VAR> in reverse order
+select only specific columns <STR_LITERAL> and <STR_LITERAL> from a dataframe <STR_LITERAL> with multiindex columns
