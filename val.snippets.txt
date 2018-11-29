@@ -1,0 +1,300 @@
+u'driver.find_element_by_xpath("//p[@id, \'one\']/following-sibling::p")'
+u'driver.find_element_by_xpath("//div[@id=\'a\']//a[@class=\'click\']")'
+u'SomeModel.objects.filter(id=id).delete()'
+u'"""Name: {0[person.name]}""".format({\'person.name\': \'Joe\'})'
+u"[dict((k, v) for k, v in d.items() if k != 'mykey1') for d in mylist]"
+u"driver.find_element_by_xpath('xpath').click()"
+u'np.where(a == 1)'
+u"os.system('ulimit -s unlimited; some_executable')"
+u"urllib.parse.quote_plus('a b')"
+u"indices = [i for i, x in enumerate(my_list) if x == 'whatever']"
+u'instance.__class__.__name__'
+u"int(s.split('.')[0])"
+u'random.sample(list(range(100)), 10)'
+u"subprocess.call('mv /home/somedir/subdir/* somedir/', shell=True)"
+u"newstr = oldstr.replace('M', '')"
+u'[int(s[i:i + 3], 2) for i in range(0, len(s), 3)]'
+u'sorted(list(data.items()), key=lambda x: x[1][0])'
+u'pandas.concat([df1, df2], axis=1)'
+u"[{'A': 1, 'C': 4, 'B': 2, 'D': 4}, {'A': 1, 'C': 4, 'B': 1, 'D': 5}]"
+u"re.sub('[^a-zA-Z0-9-_*.]', '', my_string)"
+u'datetime.datetime.now().date()'
+u'"""2.7.0_bf4fda703454""".split(\'_\')'
+u'map(list, zip(*[(1, 2), (3, 4), (5, 6)]))'
+u'zip(*[(1, 2), (3, 4), (5, 6)])'
+u"ftp.retrbinary('RETR %s' % filename, file.write)"
+u"ax.xaxis.set_ticks_position('top')"
+u"re.findall('\\\\S+', str1)"
+u"df.plot(x='col_name_1', y='col_name_2', style='o')"
+u'my_function.__name__'
+u'numpy.array([[1, 2], [3, 4]])'
+u"json.dumps({'apple': 'cat', 'banana': 'dog', 'pear': 'fish'})"
+u"re.sub('[^0-9a-zA-Z]+', '*', 'h^&ell`.,|o w]{+orld')"
+u"[d['value'] for d in l]"
+u"[d['value'] for d in l if 'value' in d]"
+u'[dict(y) for y in set(tuple(x.items()) for x in d)]'
+u"subprocess.call(['test.sh', str(domid)])"
+u'datetime.datetime.now() - datetime.timedelta(days=1)'
+u"re.split('\\\\.\\\\s', re.sub('\\\\.\\\\s*$', '', text))"
+u"sorted(list(mydict.items()), key=lambda a: map(int, a[0].split('.')))"
+u"re.compile('[^a-zA-Z0-9-]+')"
+u"re.search('\\\\bis\\\\b', your_string)"
+u'[int(s) for s in re.findall(\'\\\\b\\\\d+\\\\b\', "he33llo 42 I\'m a 32 string 30")]'
+u"df.sort_values(by='Date')"
+u'[len(x) for x in s.split()]'
+u'a.sort(key=lambda x_y: b.index(x_y[0]))'
+u"output = subprocess.Popen(['mycmd', 'myarg'], stdout=PIPE).communicate()[0]"
+u'sorted(enumerate(a), key=lambda x: x[1])'
+u"os.path.basename(os.path.normpath('/folderA/folderB/folderC/folderD/'))"
+u'"""""".join(set(\'aaabcabccd\'))'
+u"br.form.add_file(open(filename), 'text/plain', filename)"
+u"df['a'] = df['a'].apply(lambda x: x + 1)"
+u"[list(g) for _, g in itertools.groupby(test, lambda x: x.partition('_')[0])]"
+u'"""{0.month}/{0.day}/{0.year}""".format(my_date)'
+u"df.groupby(['stock', 'same1', 'same2'])['positions'].sum().reset_index()"
+u'[i for i, j in zip(a, b) if i == j]'
+u"map(int, re.findall('\\\\d+', s))"
+u"subprocess.Popen(['bash', '-c', '. foo.sh; go'])"
+u"root.geometry('500x500')"
+u'[input[i:i + n] for i in range(0, len(input), n)]'
+u"map(int, '42 0'.split())"
+u"self.writer.writerow([str(s).encode('utf-8') for s in row])"
+u"my_string.split('\\n', 1)[0]"
+u'df.sort(df.columns, axis=1, ascending=False)'
+u'max(abs(x - y) for x, y in zip(values[1:], values[:-1]))'
+u"driver.find_element_by_css_selector('.button .c_button .s_button').click()"
+u"li1.sort(key=lambda x: not x.startswith('b.'))"
+u"[x for x in my_list if not x.startswith('#')]"
+u"int('  23  ')"
+u'zipped.sort(key=lambda t: t[1])'
+u'my_series.apply(your_function, args=(2, 3, 4), extra_kw=1)'
+u"datetime.datetime.strptime('January 11, 2010', '%B %d, %Y').strftime('%a')"
+u"cursor.execute('INSERT INTO table VALUES (%s, %s, %s)', (var1, var2, var3))"
+u'root.destroy()'
+u'driver.find_elements_by_xpath("//*[contains(text(), \'My Button\')]")'
+u"os.system('start excel.exe <path/to/file>')"
+u"open('file.txt', 'w').close()"
+u'sorted(list(data.items()), key=lambda x: x[1])'
+u'map(dict, zip(*[[(k, v) for v in value] for k, value in list(d.items())]))'
+u"p = subprocess.Popen('ls', shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)\nfor line in p.stdout.readlines():\n    print(line, end=' ')\nretval = p.wait()"
+u'sum(d.values())'
+u"print(my_string.split(', ', 1)[1])"
+u'[i for i, v in enumerate(L) if v[0] == 53]'
+u"config_file = os.path.expanduser('~/foo.ini')"
+u"c.decode('unicode_escape')"
+u"re.sub('[^A-Z]', '', s)"
+u"re.sub('[^\\\\x00-\\\\x7F]+', ' ', text)"
+u'sorted(lst, key=lambda x: (x < 0, x))'
+u"apple.decode('iso-8859-1').encode('utf8')"
+u'[[X[i][j] for j in range(len(X[i]))] for i in range(len(X))]'
+u"pandas.set_option('display.max_columns', 7)"
+u'variable = []'
+u'driver.page_source'
+u"print(os.environ.get('HOME', '/home/username/'))"
+u'for (key, value) in sorted(d.items()):\n    pass'
+u'"""""".join([\'x\', \'x\', \'x\'])'
+u"plt.savefig('test.png', bbox_inches='tight')"
+u"['a', 'c', 'b', 'obj']"
+u"upload_url = blobstore.create_upload_url('/upload', gs_bucket_name='my_bucket')"
+u"int('a', 16)"
+u'a[1::2] = -1'
+u'"""""".join(x.upper() if random.randint(0, 1) else x for x in s)'
+u"datetimevariable.strftime('%Y-%m-%d')"
+u"print('Hello, {0}, how do you do?'.format(input('Enter name here: ')))"
+u"redirect('Home.views.index')"
+u"call(['path/to/python', 'test2.py', 'neededArgumetGoHere'])"
+u"format(12345678.46, ',').replace(',', ' ').replace('.', ',')"
+u"a.encode('ascii', 'ignore')"
+u'lst = list(itertools.product([0, 1], repeat=n))'
+u"url = urllib.parse.unquote(url).decode('utf8')"
+u"('%.2f' % 13.9499999)"
+u"driver.switch_to_frame('frameName')"
+u'df.sort(axis=1, ascending=False)'
+u'd = {key: value for (key, value) in iterable}'
+u"{k: bigdict[k] for k in list(bigdict.keys()) & {'l', 'm', 'n'}}"
+u'sorted(set(itertools.chain.from_iterable(sequences)))'
+u"df.set_index(['Name', 'Destination'])"
+u'rows = session.query(Congress).count()'
+u'"""\\\\u003Cp\\\\u003E""".decode(\'unicode-escape\')'
+u"int(''.join(c for c in s if c.isdigit()))"
+u"[i[0] for i in re.findall('((\\\\d)(?:[()]*\\\\2*[()]*)*)', s)]"
+u'print(os.getcwd())'
+u'timestamp = (dt - datetime(1970, 1, 1)).total_seconds()'
+u"var = input('Please enter something: ')"
+u'len(set(mylist)) == 1'
+u"re.findall('\\\\d|\\\\d,\\\\d\\\\)', '6,7)')"
+u'h = int(round(h))'
+u"print(line.rstrip('\\n'))"
+u'sum(x == chosen_value for x in list(d.values()))'
+u'{{car.date_of_manufacture | datetime}}'
+u"sys.path.insert(0, 'libs')"
+u'pd.concat([pd.DataFrame(l) for l in my_list], axis=1).T'
+u'[x for x in a if x != [1, 1]]'
+u'x[(-2):]'
+u"slice(*[(int(i.strip()) if i else None) for i in string_slice.split(':')])"
+u'np.where(np.in1d(A, B))[0]'
+u"m = re.search('\\\\[(\\\\w+)\\\\]', s)"
+u"unicodedata.normalize('NFKD', title).encode('ascii', 'ignore')"
+u'del lst[:]'
+u'cursor.execute(sql, list(myDict.values()))'
+u'[map(int, sublist) for sublist in lst]'
+u"re.sub('\\\\*\\\\*+', '*', text)"
+u'[x[0] for x in os.walk(directory)]'
+u'list(x * y for x, y in list(zip(a, b)))'
+u"df.set_index(['d'], append=True)"
+u'randint(0, 9)'
+u"item = re.sub(' ?\\\\([^)]+\\\\)', '', item)"
+u'sorted(d, key=d.get, reverse=True)'
+u"re.findall('([a-z]*)', 'f233op')"
+u"plt.savefig('graph.png', dpi=1000)"
+u"with open('filename') as f:\n    lines = f.readlines()"
+u'L[::(-1)]'
+u'np.zeros((3, 3)).ravel()'
+u'print(collections.Counter(s).most_common(1)[0])'
+u"all(word in d for word in ['somekey', 'someotherkey', 'somekeyggg'])"
+u"'          Hello        '.strip()"
+u'os.path.split(os.path.abspath(existGDBPath))'
+u"[m.start() for m in re.finditer('test', 'test test test test')]"
+u'networkx.draw_networkx_labels(G, pos, labels)'
+u"df['A'], df['B'] = df['AB'].str.split(' ', 1).str"
+u"print('[%s, %s, %s]' % (1, 2, 3))"
+u"re.findall('(?::|;|=)(?:-)?(?:\\\\)|\\\\(|D|P)', s)"
+u'any(isinstance(el, list) for el in input_list)'
+u"json.load(codecs.open('sample.json', 'r', 'utf-8-sig'))"
+u'floats = map(float, s.split())'
+u'self.request.url'
+u"int('0xa', 16)"
+u"myList = [i.split('\\t')[0] for i in myList]"
+u"os.environ['DEBUSSY'] = '1'"
+u'self.root.destroy()'
+u's.translate(None, string.punctuation)'
+u"datetime.datetime.strptime('16Sep2012', '%d%b%Y')"
+u'sum(d * 10 ** i for i, d in enumerate(x[::-1]))'
+u"parsed_html = BeautifulSoup(html)\nprint(parsed_html.body.find('div', attrs={'class': 'container', }).text)"
+u'df.index'
+u'print(random.choice(words))'
+u"print(soup.find('a', href=re.compile('.*follow\\\\?page.*')))"
+u"os.system('some_command < input_file | another_command > output_file')"
+u'print(func.__name__)'
+u'numpy.random.random((3, 3))'
+u"DataFrame({'count': df1.groupby(['Name', 'City']).size()}).reset_index()"
+u'os.chdir(os.path.dirname(__file__))'
+u'calendar.monthrange(2008, 2)'
+u'a[:] = [x for x in a if x != [1, 1]]'
+u"re.sub('.{20}(.mkv)', '\\\\1', 'unique12345678901234567890.mkv')"
+u"driver.find_element_by_id('foo').clear()"
+u'a.append(b).reset_index(drop=True)'
+u"requests.get(url, headers={'referer': my_referer})"
+u"datetime.strptime('2015/01/01 12:12am', '%Y/%m/%d %I:%M%p')"
+u"sum(item['gold'] for item in myLIst)"
+u"with open('foo', 'a') as f:\n    f.write('cool beans...')"
+u'a.shape'
+u"datetime.datetime.strptime('2013-1-25', '%Y-%m-%d').strftime('%m/%d/%y')"
+u"strings.sort(key=lambda str: re.sub('.*%(.).*', '\\\\1', str))"
+u"strftime('%Y-%m-%d %H:%M:%S', gmtime())"
+u'super(Instructor, self).__init__(name, year)'
+u'[k for k, g in itertools.groupby([1, 2, 2, 3, 2, 2, 4])]'
+u"('a' in d)"
+u"newcontents = contents.replace('a', 'e').replace('s', '3')"
+u"raise RuntimeError('specific message')"
+u"'{0:.2f}'.format(13.95)"
+u"help('modules')"
+u'[(x / y) for x, y in zip(a, b)]'
+u'[k for k, v in d.items() if v == desired_value]'
+u"df['prod_type'] = 'responsive'"
+u'pd.DataFrame(df.columns[np.argsort(df.values)], df.index, np.unique(df.values))'
+u"fd = os.open('x', os.O_WRONLY | os.O_CREAT | os.O_EXCL)"
+u's.sort(key=operator.itemgetter(1, 2))'
+u"os.system('script2.py 1')"
+u"globals().update(importlib.import_module('some.package').__dict__)"
+u"'used\\u200b'.replace('\\u200b', '*')"
+u'for (k, v) in sorted(foo.items()):\n    pass'
+u'd = {k: v for k, v in list(d.items()) if v > 0}'
+u'my_function.__name__'
+u"raise ValueError('A very specific bad thing happened')"
+u"parser.add_argument('--conf', nargs=2, action='append')"
+u"os.environ['HOME']"
+u'from functools import reduce\nreduce(lambda x, y: 10 * x + y, [1, 2, 3, 4, 5])'
+u'print(sorted(student_tuples, key=lambda t: (-t[2], t[0])))'
+u'print(bool(a))'
+u'"""""".join(reversed([a[i:i + 2] for i in range(0, len(a), 2)]))'
+u"re.split('_(?:for|or|and)_', 'sad_pandas_and_happy_cats_for_people')"
+u"next = driver.find_element_by_css_selector('li.next>a')"
+u"exec(compile(open('filename.py').read(), 'filename.py', 'exec'))"
+u'list(itertools.combinations([1, 2, 3, 4, 5, 6], 2))'
+u'alist[:] = []'
+u"df['name'].str.replace('\\\\(.*\\\\)', '')"
+u'[[2, 3, 4], [2, 3, 4], [2, 3, 4]]'
+u"print(subprocess.Popen('echo Hello World', shell=True, stdout=subprocess.PIPE).stdout.read())"
+u'string[0].isdigit()'
+u"df.groupby('group')['value'].rank(ascending=False)"
+u"df.drop('a', level=1, axis=1)"
+u'df.applymap(lambda x: isinstance(x, (int, float)))'
+u"re.sub('(.*)</div>', '\\\\1</bad>', s)"
+u"re.split('\\\\s*,\\\\s*|\\\\s*;\\\\s*', 'a , b; cdf')"
+u'dict((i, i * 2) for i in range(10))'
+u"df.fillna(method='ffill', inplace=True)"
+u'fig.set_size_inches(w, h, forward=True)'
+u'slice = [arr[i][0:2] for i in range(0, 2)]'
+u'text.config(state=DISABLED)'
+u'df.groupby(df.index).sum()'
+u"print(('last modified: %s' % time.ctime(os.path.getmtime(file))))"
+u'{x[1]: x for x in lol}'
+u'print(len([x for x in lst if x is not None]))'
+u'df[~df.index.duplicated()]'
+u"url.rsplit('/', 1)[-1]"
+u"driver.get('http://www.google.com')"
+u"output = open('/home/user/test/wsservice/data.pkl', 'wb')"
+u"df[['A', 'B']].multiply(df['C'], axis='index')"
+u"df = pd.read_csv('my.csv', dtype={'my_column': np.float64}, na_values=['n/a'])"
+u'{{json.key1}}'
+u"df.loc[df['Value'].idxmax()]"
+u'my_list.sort(key=lambda x: x[1])'
+u'os.system(my_cmd)'
+u'L.reverse()'
+u"sorted(lst, key=lambda x: x['language'] != 'en')"
+u"df.reset_index().groupby('A')['index'].apply(np.array)"
+u'[(a * b) for a, b in zip(lista, listb)]'
+u'[[[x[0]] for x in listD[i]] for i in range(len(listD))]'
+u"df = df.set_index(['TRX_DATE'])"
+u"datetime.strptime('21/11/06 16:30', '%d/%m/%y %H:%M')"
+u'numpy.where(mask)'
+u"re.findall('\\\\[(.*?)\\\\]', mystring)"
+u'new_list = list(old_list)'
+u"monthly_mean.reset_index().plot(x='index', y='A')"
+u"print('\\u25b2'.encode('utf-8'))"
+u'list(d.values())'
+u'os.path.dirname(os.path.abspath(__file__))'
+u"sys.exit('some error message')"
+u'str(datetime.now())'
+u"request.headers['your-header-name']"
+u"line.strip().split(' ')"
+u'list(df.index)'
+u"df.set_index('id').to_dict()"
+u'isinstance(s, str)'
+u"f = open('example.txt')\ns = mmap.mmap(f.fileno(), 0, access=mmap.ACCESS_READ)\nif (s.find('blabla') != (-1)):\n    pass"
+u'f = urllib.request.urlopen(url, urllib.parse.unquote(urllib.parse.urlencode(params)))'
+u"s.encode('utf8')"
+u"if hasattr(a, 'property'):\n    pass"
+u'df.index.values.tolist()'
+u"re.findall('\\\\s+|\\\\S+', s)"
+u"parser.ParseFile(open('sample.xml', 'rb'))"
+u'sorted(iter(mydict.items()), key=itemgetter(1), reverse=True)'
+u'self.myList.extend([0] * (4 - len(self.myList)))'
+u"sum([item['gold'] for item in example_list])"
+u'"""Abc""".translate(maketrans(\'abcABC\', \'defDEF\'))'
+u'reversed(array)'
+u"pd.date_range('1/1/2014', periods=12, freq='BM')"
+u'[sum([x[1] for x in i]) for i in data]'
+u"outfile.write('\\n'.join(itemlist))"
+u"datetime.strptime('2009/05/13 19:19:30 -0400', '%Y/%m/%d %H:%M:%S %z')"
+u'print(np.linspace(1, 3, num=5))'
+u'dt -= datetime.timedelta(hours=5)'
+u'"""""".join(dropwhile(lambda x: x in bad_chars, example_line[::-1]))[::-1]'
+u'linsolve(Matrix(([1, 1, 1, 1], [1, 1, 2, 3])), (x, y, z))'
+u'numpy.dot(numpy.dot(a, m), a)'
+u'"""""".join([1, 2, 3, 4])'
+u'for i in mylist[::2]:\n    pass'
+u'"""{1} {ham} {0} {foo} {1}""".format(10, 20, foo=\'bar\', ham=\'spam\')'
+u'bar.sort(key=lambda x: (x.attrb1, x.attrb2), reverse=True)'
+u"data.loc[:, ([('one', 'a'), ('one', 'c'), ('two', 'a'), ('two', 'c')])]"
