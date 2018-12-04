@@ -76,7 +76,6 @@ how can i launch an instance of an application using python
 how to erase the file contents of text file in python
 sort dict by value python
 split dictionary of lists into list of dictionaries
-calling an external command <STR_LITERAL>
 sum of all values in a python dict
 print a string after a specific substring <STR_LITERAL> in string <VAR>
 get the indices of tuples in list of tuples <VAR> where the first value is <NUM>

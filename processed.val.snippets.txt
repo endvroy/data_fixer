@@ -76,7 +76,6 @@ u"os.system('start excel.exe <path/to/file>')"
 u"open('file.txt', 'w').close()"
 u'sorted(list(data.items()), key=lambda x: x[1])'
 u'map(dict, zip(*[[(k, v) for v in value] for k, value in list(d.items())]))'
-u"p = subprocess.Popen('ls', shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)\nfor line in p.stdout.readlines():\n    print(line, end=' ')\nretval = p.wait()"
 u'sum(d.values())'
 u"print(my_string.split(', ', 1)[1])"
 u'[i for i, v in enumerate(L) if v[0] == 53]'
