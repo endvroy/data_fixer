@@ -17,8 +17,8 @@ convert binary string to list of integers using python
 how to sort a dictionary in python by value when the value is a list and i want to sort it by the first index of that list
 combine two pandas dataframes with the same index
 creating a list of dictionaries in python
-python remove special character from string
-how do i convert datetime to date in python
+python / remove special character from string
+how do i convert datetime to date (in python)
 how can i split and parse a string in python
 convert list of tuples to multiple lists in python
 convert list of tuples to multiple lists in python
@@ -223,7 +223,7 @@ execute file <STR_LITERAL>
 getting every possible combination of two elements in a list
 empty a list <VAR>
 replace parentheses and all data within it with empty string <STR_LITERAL> in column <STR_LITERAL> of dataframe <VAR>
-create sub matrix of a list of lists <VAR> without numpy
+create sub matrix of a list of lists <VAR> (without numpy)
 calling an external command <STR_LITERAL>
 check if string <VAR> starts with a number
 get rank of rows from highest to lowest of dataframe <VAR> grouped by value in column <VAR> according to value in column <VAR>
