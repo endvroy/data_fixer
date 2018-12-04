@@ -6,7 +6,7 @@ def pick(intent_f, snippets_f, n):
     intents = intent_f.readlines()
     snippets = snippets_f.readlines()
     data = zip(intents, snippets)
-    result = random.choices(data, n)
+    result = random.sample(data, n)
     return result
 
 
@@ -33,6 +33,6 @@ if __name__ == '__main__':
     args = parser.parse_args()
     main(args.intent_in,
          args.snippets_in,
-         args.n,
+         int(args.n),
          args.intent_out,
          args.snippets_out)
