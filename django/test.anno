@@ -1,0 +1,400 @@
+  call the method copy.deepcopy with arguments self._choices and memo, substitute the result for result._choices.
+  yield nothing.
+  if file_name is an instance of Template class.
+  call the method self.reader_enters.
+  append the result to pieces.   otherwise if piece is true,
+  define the method resolve_context with 2 arguments: self and context.
+  substitute self.field.widget for widget.
+  otherwise, if s has an attribute '__unicode__',
+  compare is a lambda function with arguments self, a and b, return value is boolean true if a is lesser than b, otherwise is false.
+  raise an ValueError exception with an argument string "Base36 input too large".
+  append value under the key v of background dictionary to code_list.
+  if first element of cwords equals a string 'runfcgi',
+  call the function force_text with an argument message, return the result.
+  if NameError exception is caught,
+  if method self.validate_domain_part with an argument domain_part evaluates to true,
+  call the method self.can_read.acquire.
+  get the value under the 'CONTENT_TYPE' key of the self.META dictionary, if it starts with a string 'multipart/form-data',
+  doctring
+  for every x in sequence of integers from 0 to 7.   RESET is a string '0'.
+  call the method self.add_truncation_text with 2 arguments: elements of words joined in a string, separated with whitespaces,
+  return integer 12.
+  if ret is true.
+  call the method stream.unget with list containing elements of chunk list from the header_end incremented by integer 4 as a start index to the end as argument.
+  if template has an attribute 'render',
+  program_options is list containing string '--check-format'.
+  call the function pickle.dumps with value and pickle.HIGHEST_PROTOCOL as the arguments, substitute the result for pickled.
+  requires_system_checks is boolean False.
+  if not,
+  substitute package.__path__ for package_path.
+  call the method sub_match_dict.update with an argument sub_match.kwargs.
+  if offset is smaller than integer 0, sign is '-', otherwise sign is '+'.
+  val is None.
+  if length of bits equals integer 3,
+  substitute conditions_nodelists for self.conditions_nodelists.
+  from django.utils.encoding import force_text into default name space.
+  substitute name for new.
+  do nothing.
+  append path to self._js.
+  split arg by ':', for every x in result,
+  import module json.
+  call the method self.compression_formats.keys, convert it to list, substitute it for cmp_fmts if cmp_fmt is None,
+  define the function stringformat with 2 arguments value and arg.
+  call the method clean with an argument data from the base class of the class URLField, return the result.
+  for every form in self.initial_forms,
+  substitute '%s' in string 'Cache key will cause errors if used with memcached: %s (longer than %s)' with key,
+  append new line to line, write it to self.stdout stream.
+  if matches is false,
+  return an empty string,
+  increment self.waiting_readers by 1.
+  format string '&#%s;' with name, append it to self.fed.
+  "arguments '%s' not found. %d pattern(s) tried: %s", replace '%s' with lookup_view_s, args, kwargs, length of patterns, patterns,  and respectively.   derive the class LocaleRegexURLResolver with RegexURLResolver as base class.
+  try,
+  if filename path doesnt exists,
+  call the executor.loader.detect_conflicts, substitute the result fr conflicts.
+  define the function get_version with version set to None as argument.
+  derive the class Command from the BaseCommand class.
+  call the method self.replace_header with argument string 'Content-Type', 'text/%s; charset="%s"', where '%s' symbols are replaced by:
+  call the method self.expression.resolve with 2 arguments: context and boolean True, return the result.
+  import module re.
+  nodes is an empty list.
+  call the function force_bytes with an argument salt, substitute the result for salt.
+  define the method to_python with arguments self and value.
+  derive the class JsonResponse from the HttpResponse base class.
+  from django.utils.six.moves.urllib.parse import quote into default name space.
+  return a list containing results of the function format_html called with 2 arguments:
+  substitute value under the unique_for key of form.cleaned_data dictionary for date.
+  encoding set to None and unpacked dictionary _params.   substitute encoding for self.encoding.
+  output_transaction is boolean True.
+  define the method has_key with 3 arguments: self, key, and version set to None.
+  call the function format_html with an argument empty string, return the result.
+  and result of the function flatatt, called with an argument final_attrs.   define the method value_from_datadict with 4 arguments: self, data, files and name.
+  return template.
+  initial set to None, help_text set to an empty string, error_messages set to None, show_hidden_initial set to boolean False,   validators is an empty, localize set to boolean False, label_suffix set to None.   substitute required, label and initial for self.required, self.label and self.initial.
+  if value has an 'close' attribute,
+  if AmbiguityError exception is caught,
+  call the method self._stream.readline with 2 arguments: unpacked list args, unpacked dictionary kwargs.
+  if k is contained in seen,
+  raise an exception of class ValueError, with string "Key '%s' not found" as argument, where '%s' is substituted for key.
+  call the method self.stdout.write with an argument: string "%(started_at)s\nDjango version %(version)s, using settings %(settings)r\n"
+  convert lang_string to lowercase, split by the result string accept_language_re, substitute the result for pieces.
+  if indent is false,
+  try,
+  otherwise if length of key equals integer 1 and type of first element of key is contained in fasttypes,
+  request user input from the standard input, assign it o confirm, with the query string: "You have requested a flush of the database."
+  define the method values with an argument self.
+  get config dictionary element under 'root' key, if it exists substitute it for root, if not, root is None.
+  define the method rendered_content with an argument self.
+  if string "'format'" is not contained in e converted into a string,
+  if register_to is true,
+  substitute _templatetags_modules for templatetags_modules.
+  if second element of data_list is contained in self.empty_values,
+  return the result.   decorator function register.filter with 2 arguments is_safe set to boolean True and needs_autoescape set to boolean True.
+  if call to the method self._css.get with an argument medium evaluates to false,
+  if code is None,
+  call the function force_text with an argument val, if the result is not contained in pks,
+  define the method set_many with 4 arguments: self, data, timeout set to DEFAULT_TIMEOUT and version set to None.
+  call the method stream_or_string.decode with an argument string 'utf-8', substitute the result for stream_or_string.
+  call the function trim_url with an argument middle, substitute the result for trimmed.
+  if self.parent_name.filters is true or self.parent_name.var is an instance of Variable.
+  import module re.
+  return is boolean True.
+  get the value under the 'error_messages' key of the kwargs dictionary, update errors dictionary with it.
+  return data.
+  substitute '%s' is string 'processing file %s in %s\n' with self.file and self.dirpath, write it to command.stdout.
+  define the method setlist with 3 arguments: self, key and list_.
+  define the method size with arguments self and name.
+  call the function random_module.choice with an argument value, return the result.
+  if value under the 'liveserver' key of the options dictionary is not None,
+  call the function escape with an argument value, substitute it for value.
+  break the loop execution.
+  form is an instance of ManagementForm class, created with 3 arguments: auto_id as self.auto_id, prefix as self.prefix,
+  latest_date is None.
+  get the value under the 'use_default_ignore_patterns' key of the options dictionary, if it is true,
+  finally perform,
+  call the function ip.
+  if pythonrc is not a file,
+  call the method parser.parse with an argument tuple with an element string 'endspaceless', substitute the result for nodelist.
+  subtract third element of tupl from length of second element of tupl, substitute the result for units.
+  define the method find_potfiles with an arguments self and root.
+  get the value under the 'ignore' key of the options dictionary, substitute it for self.ignore.
+  return boolean False.
+  register.tag decorator,
+  return a tuple with 2 elements: result of the method self.field.prepare_value called with an argument obj,
+  if upto is not equal to length of token,
+  DNS_NAME is a instance of CachedDnsName class.
+  _meth_self is a string "im_self".
+  execute regardless of the exception being raised,
+  call the method logger.removeHandler with an argument handler.
+  return lookup_view.
+  return self._choices.
+  if not,
+  and format, call the method time on the result, return the result.   derive the class DateTimeField from the base class BaseTemporalField class.
+  yield and empty string as the result.
+  if label_suffix is not None substitute label_suffix for self.label_suffix,
+  substitute instance for self.instance.
+  import bpython.
+  call the function glob.glob with an argument: string '/*' appended to self.default_locale_path converted into a string,
+  raise an exception.
+  dest as a string 'interactive', default as boolean True help as a string 'Tells Django to NOT prompt the user for input of any kind.'.   define the method handle with 3 arguments: self and unpacked dictionary options.
+  third element of the result of the function sys.exc_info.   define the method readline with 3 arguments: self, unpacked list args and unpacked list kwargs.
+  for 'invalid_date' and return value of the function _ called with an string 'Enter a valid time.', for 'invalid_time.   define the method __init__ with 3 arguments: self, input_date_formats set to None, input_time_formats set to None,
+  from django.conf import settings into default name space.
+  call the method os.dup2 with 2 arguments: result of the method se.fileno and result of the method sys.stderr.fileno.
+  try,
+  convert value into an string, convert the result into an integer and substitute it for value.
+  for every f in fields,
+  if attachments exists substitute it for self.attachments, if not attachments is an empty list.
+  substitute deprecation_warning for self.deprecation_warning.
+  if email_messages is false,
+  call the method self._assert_mutable.
+  increment doy by integer 1.
+  append '-' to digits.
+  e.args is a tuple containing string "Could not load %(app_label)s.%(object_name)s(pk=%(pk)s): %(error_msg)s,
+  _dec.__name__ is a string 'method_decorator(%s)' formated with decorator.__class__.__name__.
+  call the method self._handle_m2m_field_node with an argument field_node and field, substitute the result for value under the field.name key of m2m_data dictionary.
+  and ignored as an empty tuple, convert the result into a tuple and substitute it for extensions.   extra_files is an empty list.
+  import pytz.
+  join self.path and f in path, substitute the result for full_file.
+  evaluate the function import_string with middleware_path as argument, substitute the result for my_class.
+  get the value under the 'incomplete' key of the field.error_messages dictionary, if it is not contained in errors,
+  if can fail is true,
+  if not,
+  define the method r with an argument self.
+  skip this loop iteration.
+  row_data is an generator object that returns value under the field key of form.cleaned_data dictionary,
+  if value under the "RUN_MAIN" key of the os.environ dictionary equals to string "true",
+  for model in self.models append model._meta.db_table to a list, substitute the resulting list for table_names.
+  substitute subject for self.subject.
+  substitute self.__class__.__doc__ for self.__doc__.
+  if self.__dispatch is None.
+  if obj_pk is not None,
+  call the function warnings.warn with 3 arguments: string '`MergeDict` is deprecated, use `dict.update()` instead.',
+  if want_unicode is false,
+  assign self.model._meta.pk to self._pk_field and pk.
+  call the method self.connection.ehlo.
+  substitute the result for the value under the Model._meta.pk.attname key of data dictionary.   m2m_data is an empty dictionary.
+  return an empty list.
+  define the function b with an argument s.
+  if UnicodeError, renamed to e, exception is caught,
+  return boolean True if self.level is greater than or equals to ERROR, otherwise return boolean False.
+  skip this loop iteration.
+  return an dictionary containing 1 entry: request for 'request'.
+  call the method self.build_attrs with 3 arguments: attrs, type as self.input_type, name as name, substitute the result for final_attrs.
+  append value under k key of self dictionary to a list, for every k in self.keyOrder, return the result.
+  raise an CommandError exception with an argument string 'You must set settings.ALLOWED_HOSTS if DEBUG is False.'.
+  from __future__ import unicode_literals into default name space.
+  call the function get_template_from_string with 3 arguments: template, origin and template_name, substitute the result for template.
+  extract the value under the key 'database' from the options dictionary, use the value for indexing connections list, substitute the result for connection.
+  call the method signing.get_cookie_signer with an argument salt set to sum of key and salt,
+  excluded_models is an empty set.
+  join into a file path: django_dir, 'conf', 'locale', locale, 'LC_MESSAGES' and string '.po' appended to domain, substitute the result for django_po.
+  do nothing.
+  from binascii import Error as BinasciiError into default name space.
+  return instance.
+   return self.position.
+  if KeyError exception is caught,
+  for every middleware_method in self._response_middleware,
+  derive the class IfParser from the object base class.
+  define the method render with 2 arguments: self and context.
+  _get_post is a getter function and _set_post is a setter function for POST attribute of this class.
+  call the function os.path.dirname with an argument django.__file__, join the result into a path,
+  raise an ValueError exception with an argument string 'Unable to add handler %r: %s' formated with h and e.
+  substitute the datetime.max for exp.
+  if content is an instance of a EmailMessage class,
+  raise an TemplateDoesNotExist exception with an argument name.
+  divide j by integer 7, substitute the floored result for week_number.
+  value under the 'primary_key' key of the extra_params dictionary is boolean True,
+  self.cleaned_data is an empty dictionary.
+  evaluate next boolean expression, value of converter function with opts.db_table as argument is contained in tables,
+  errors is an empty list.
+  if error is not an instance of ValidationError,
+  new_method_proxy, __class__ is an property object created with previous result as an argument.   call the function new_method_proxy with an argument operator.eq, substitute the result for __eq__.
+  field_type is a string 'NullBooleanField('
+  from django.utils import six into default name space.
+  call the method parser.next_token, substitute the result for token.
+  return boolean False.
+  derive the class SplitHiddenDateTimeWidget from the SplitDateTimeWidget base class.
+  if callback is an instance of functools.partial object,
+  raise an exception parser.error_class with an argument string "Not expecting '%s' in this position in if tag.",
+  translators_comment_start is None.
+  call the method self.fetch_command with first element of cwords as an argument, substitute it for subcommand_cls.
+  call the function call_command with 2 arguments: string migrate and unpacked dictionary options.
+  if html_message is True,
+  return self._size.
+  _func_globals is a string "__globals__".
+  join elements of output into a string, return the result.
+  if opts.model is true,
+  slice the filename from the previous result as start index to the end, strip it of white spaces from both ends,   if the result is not an empty string and filename is not an empty string, return boolean True, otherwise return boolean False.   define the method _close_files with an argument self.
+  call the method self.clear_cdata_mode.
+  if elt is an instance of Group class,
+  mapped with a function k, for every k and v in return value of the method candidate_subs.items.   format candidate_pat with candidate_subs, return the result.
+  if call to the function _samefile with old_file_name and new_file_name evaluates to boolean True,
+  write a new line to the self.stream file stream.
+  substitute origin for self.origin.
+  doublecolon_len is an integer 0.
+  call the function _explode_shorthand_ip_string with an argument ip_str, substitute the result for ip_str.
+  try,
+  if new_name ends with a string '_',
+  bring integer 36 to the power of factor, substitute the result for j.
+  html set to boolean True and truncate set to string ' ...', return the result.   decorator function register.filter with an argument is_safe set to boolean False.
+  substitute length for self._remaining.
+  define the method render with 2 arguments: self and context.
+  fks_to_parent is a list containing f for every f in opts.fields, only if f is an instance of ForeignKey,
+  return value under the alias key of self._caches.caches dictionary.
+  substitute self.max_value for the value under the 'max' key of the attrs dictionary.
+  call the method __init__ from the base class of the class MultiValueDict, with an argument key_to_list_mapping.
+  call the __init__ method with an argument name from the base class of the MovedModule class.
+  if not,
+  from django.utils.functional import allow_lazy into default name space.
+  if HTMLParseError or UnboundLocalError exceptions are caught,
+  value is None.
+  derive the class SafeBytes from bytes and SafeData base classes.
+  derive the class ChoiceField from the base class Field class.
+  from django.forms.formsets import BaseFormSet and formset_factory into default name space.
+  substitute params without the first element for params.
+  return boolean True, otherwise return boolean False.   define private method __ne__ with self class instance and other as arguments.
+  return filter_func.
+  append ch to result.
+  return result converted into an integer.   if not,
+  join self.file_path and fname into a valid file path, substitute it for self._fname.
+  if field PY2 of the module six is boolean True,
+  for every name in bits from the start index 1 to the end index negative 2,
+  get 'value' attribute of the _prefixes, if it exists, return it, otherwise return '/'.
+  from django.utils.functional import cached_property into default name space.
+  if unpack is true,
+  if not,
+  derive the class BadSignature from the Exception base class.
+  from django.utils.encoding import python_2_unicode_compatible into default name space.
+  return self.msg formatted with a tuple, with elements generated from return value of the function force_text with 2 arguments:
+  if settings.configured,
+  call the method self._iteritems, for every k and v in the result,
+  import module warnings.
+  context_extras is an empty dictionary.
+  if current_app and is true and current_app is contained in app_list,
+  label set to return value of the function _ called with an string 'Delete' and required as boolean False.   define the method add_prefix with an argument self.
+  define the method __iter__ with an argument self.
+  call the method handler.addQuickElement with 2 arguments: string 'uri' and value under the 'author_link' key of the self.feed dictionary.
+  "%r is not a valid date" formated with date and third element of the result of the function sys.exc_info.   define the function parse_http_date_safe an argument date.
+  if filter_func has an attribute "_decorated_function",
+  from django.utils.encoding import smart_text, force_str and force_text into default name space.
+  from django.core.exceptions import ValidationError and NON_FIELD_ERRORS into default name space.
+  for every dict_ in self.dicts,
+  yield one element of line iterable.
+  get the value under the 'exclude' key of the options dictionary, substitute the result for exclude.
+  define the method __init__ with 3 arguments: self, schemes set to None and unpacked dictionary kwargs.
+  call the function ugettext with an argument string "%s GB", substitute '%s' with the result of the call to the function,
+  if six.text_type is contained in resultclasses, cls._delegate_text is boolean True, otherwise it is boolean False.
+  option is a string '--testrunner='.
+  call the function isabs with an argument path, if it evaluates to false,
+  call the method parser.add_argument with arguments: string '--database', action set to string 'store', dest set to string 'database',
+  substitute obj for the value of the memo dictionary at the identity of the self object key.
+  define the method setdefault with 3 arguments: self, key and default set to None.
+  for every form in self call the form.as_table method, join the results in a string, separated by an empty string.
+  for every character in name,
+  substitute '%s' in the string '\n%s:\n%s\n', with group_name and formatted, substitute the result for msg.
+  call the method match.group with an argument integer 0, return the result.
+  define the method __bytes_cast with an argument self.
+  tuple with 3 elements: strings '%H:%M:%S', '%H:%M:%S.%f' and '%H:%M' for 'TIME_INPUT_FORMATS',   tuple with 4 elements: strings '%Y-%m-%d %H:%M:%S', '%Y-%m-%d %H:%M:%S.%f', '%Y-%m-%d %H:%M' and '%Y-%m-%d' for 'DATETIME_INPUT_FORMATS'.   define the function reset_format_cache.
+  call the method context.push with unpacked dictionary values as an argument, with the result perform,
+  contextlib.contextmanager decorator,
+  call the function re.compile with raw string '&(?!(\w+|#\d+);)', substitute the result for unencoded_ampersands_re.
+  evaluate the method connections[db].ops.cache_key_culling_sql, evaluate the result by table modulus, call the method cursor.execute,
+  'Database state will be brought to the state after that migration.' as arguments.   call the method parser.add_argument with string '--noinput', action containing string 'store_false', dest set to string 'interactive',
+  derive the LabelCommand class from the BaseCommand base class.
+  if attrs is false, make it an empty dictionary.
+  for every check in checks,
+  if not,
+  status_code is an integer 404.
+  if not,
+  call the method cursor.execute with sql as argument.
+  define the function cycle with 2 arguments: parser and token.
+  call the function lazy with 2 arguments: func and unpacked list resultclasses, call the result with 2 arguments: unpacked list args,
+  substitute second element of elt for param.
+  raise an TemplateSyntaxError exception with an argument string "'%s' cannot appear more than once in the same template",
+  try,
+  join app_dir and string 'sql' into a file path, use the result as an argument for the call to the function os.path.normpath,
+  raise CommandError exception with "App '%s' does not have migrations (you cannot selectively sync unmigrated apps)",
+  from django.utils.deprecation import RemovedInDjango19Warning into default name space.
+  if p_pattern starts with a string '^',
+  call the method cursor.execute with an argument line.
+  call the function force_bytes with an argument password, substitute the result for password.
+  yield buf as return value of the generator.
+  call the method timezone.tzname with an argument None, return the result.
+  for every path in collect,
+  substitute opts for value under the 'opts' key of definition dictionary.
+  raise an base.DeserializationError exception with string "<field> node is missing the 'name' attribute" as argument.
+  if sent is true,
+  define the method inner with 2 arguments: self and unpacked list args.
+  try,
+  call the options.get method with string 'CULL_FREQUENCY' and integer 3 as arguments, use the string 'cull_frequency' and previous result as the arguments for the call to the params.get method, substitute the result for cull_frequency.
+  call the method params.get with 2 arguments, string 'KEY_FUNCTION' and None, use the result as the argument for the call to the function get_key_func, substitute the result for the self.key_func.
+  define the method utcoffset with 2 arguments: self and dt.
+  define the method add_arguments with 2 arguments self and parser.
+  call the method handler.addQuickElement with 3 arguments: string 'summary', value under the 'description' key of item dictionary,
+  derive the class RendererMixin from the object base class.
+  do nothing,
+  ch is None.
+  try,
+  pad the rest of the field with bytes string '=', use the result as an argument for the call to the method base64.urlsafe_b64decode,   return the result.   if LookupError or BinasciiError, renamed to e, exceptions are caught.
+  substitute new_args for result_args.
+  paths is a list containing results of the function force_text called with an argument p, for every p in paths.
+  app_configs is a list containing app_config.
+  if event equals a string "START_ELEMENT" and node.nodeName equals a string 'object',
+  if data is None,
+  import module tempfile.
+  substitute target_var for self.target_var.
+  if not an empty string, and truncate, return the result.   return text.
+  if length of bits is greater than integer 2,
+  try,
+  define the method __init__ with 2 arguments: self and language.
+  define the method j with an argument self.
+  call the method related.natural_key, substitute the result for value.
+  if ch is contained in string '*?+',
+  call the method transaction.get_autocommit with an argument self.using, if it evaluates to true,
+  call the method __init__ from the base class of the class TemplateIfParser, with 2 arguments: unpacked list args and unpacked dictionary.
+  use it as an argument for the call to the method self.style.MIGRATE_HEADING, write the result to self.stdout.   for every operation in migration.merged_operations,
+  where '%s' is replaced with taglib_module.   templatetags_modules is an empty list.
+  if AttributeError exception is caught,
+  for every field in concrete_model._meta.local_fields,
+  dest set to string 'verbosity', default set to string '1', type set to int, choices is a list, containing integers: 0, 1, 2 and 3,   call the method parser.add_option with 2 arguments: string '--settings' and help as a string 'The Python path to a settings module,  e.g. "myproject.settings.main". If this isn\'t provided, the DJANGO_SETTINGS_MODULE environment variable will be used.'
+  import module random as random_module.
+  if construct is true,
+  if limit_choices_to is not None,
+  extend collect list with settings.TEMPLATE_CONTEXT_PROCESSORS.
+  self.connection is None.
+  open new_path file in 'wb' mode, with file descriptor renamed to new_file,
+  from django.utils import six into default name space.
+  define the method validate_unique with an argument self.
+  for every base in new_class.__mro__ in reversed order,
+  from django.utils.encoding import force_bytes and python_2_unicode_compatible into default name space.
+  raise an NotImplementedError exception with argument string "This backend doesn't support absolute paths.".
+  max_num is integer 1.
+  call the method self.setlist with 2 arguments: key and default_list.
+  call the exp.replace with microsecond set to integer 0, substitute the result for exp.
+  where '%s' is replaced by lookup_view.   try,
+  if not,
+  return text.
+  import module datetime.
+  get 'Meta' attribute from form object, if it exists substitute it for meta, if not meta is None.
+  call the method self.connection.quit.
+  raise the exception ValueError, with string as argument, "@python_2_unicode_compatible cannot be applied",
+  substitute form.cleaned_data for cleaned_data.
+  define the method setdefault with 3 arguments: self, key and default.
+  from django.utils.encoding import force_text and python_2_unicode_compatible into default name space.
+  define the method send_messages with arguments self and email_message.
+  otherwise if formfield_callback is not callable object,
+  call the method parser.parse, substitute the result for nodelist.
+  increment doublecolon_len by integer 1,
+  call the function _urlize with 4 arguments: value, trim_url_limit as limit converted into an integer, nofollow as boolean True,
+  try,
+  get name attribute from the instance object, call it and return the result.
+  substitute base for self.base.
+  define the function module_has_submodule with 2 arguments: package and module_name.
+  decrement date.month by integer 1, use the result as an key to obtain the value from the months dictionary, substitute it for month.
+  do nothing.
+  raise an exception parser.error_class with an argument string "Not expecting '%s' as infix operator in if tag.",
+  bring integer 36 to the power of factor, if i is smaller than the result,
+  define the method __str__ with argument self.
+  substitute arg converted into an integer for length.
+  if m is false,

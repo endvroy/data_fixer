@@ -1,0 +1,200 @@
+  self . xml . endElement ( "object" )
+    self . choices = list ( choices )
+          self . style = color_style ( )
+    def configure_root ( self , config , incremental = False ) :
+ if _file is not None :
+                  self . stdout . write ( "Checking %s for fixtures..." % humanize ( fixture_dir ) )
+ file_size = data . size
+ if hasattr ( self , '_get' ) :
+ self . write ( s , encoding )
+ def get_commands ( ) :
+              key = self . to_field_name or 'pk'
+ def __init__ ( self , func ) :
+ if resource_string is not None :
+    def is_writable ( path ) :
+  key = ':' . join ( urlquote ( var ) for var in vary_on )
+ import sys
+              self . _post , self . _files = QueryDict ( self . body , encoding = self . _encoding ) , MultiValueDict ( )
+     _illegal_formatting = re . compile ( r"((^|[^%])(%%)*%[sy])" )
+ from django . utils . synch import RWLock
+ plural = [ ]
+  def clear_checkbox_name ( self , name ) :
+  parser . _namedCycleNodes [ name ] = node
+  if BLOCK_CONTEXT_KEY not in context . render_context :
+          return ''
+ resolver = urlresolvers . RegexURLResolver ( r'^/' , urlconf )
+                      return self . filter ( name , func , ** flags )
+ for func , unused in filter_expr . filters :
+  else :
+    if ip_str . count ( ':' ) > 7 :
+  return translated
+          self . validate_unique ( )
+ return mark_safe ( format_string . format ( * args_safe , ** kwargs_safe ) )
+          key = self . make_key ( key , version = version )
+ if os . path . isfile ( f ) :
+ for opname , opfunc in convert [ root ] :
+ import yaml
+   class TranslatorCommentWarning ( SyntaxWarning ) :
+  if ttl is not None :
+                      pk_value = None
+   def widget_attrs ( self , widget ) :
+                  self . fixture_count += 1
+ _globs_ = frame . f_globals
+ so = open ( out_log , 'a+' , buffering )
+              pass
+                          g = g . strip ( '"' )
+ from django . test . signals import setting_changed
+      def __init__ ( self , * args , ** kwargs ) :
+ from django . utils import six
+ from django . utils . datastructures import MultiValueDict
+ return '\n' . join ( statements )
+ to_python = self . _get_to_python ( pk_field )
+       def __add__ ( self , other ) :
+                  raise CommandError ( "App '%s' does not have migrations (you cannot selectively sync unmigrated apps)" % app_label )
+              url = value
+              request = self . request_class ( environ )
+   def format_subject ( self , subject ) :
+          return json . dumps ( obj , separators = ( ',' , ':' ) ) . encode ( 'latin-1' )
+   return obj
+ self . unget ( chunk [ remaining : ] )
+                  field_output . append ( "UNIQUE" )
+ return self
+              form . save_m2m ( )
+                  filterer . addFilter ( self . config [ 'filters' ] [ f ] )
+  elif not isinstance ( file_name , six . string_types ) and is_iterable ( file_name ) :
+ if value in self . empty_values :
+  pos = m . end ( 0 )
+                          if not found and ( not line or plural_forms_re . search ( line ) ) :
+ self . FILES = MultiValueDict ( )
+                  self . stdout . write ( "UnicodeDecodeError: skipped file %s in %s" % ( f . file , f . dirpath ) )
+   elif option == 'only' :
+          return len ( self . object_list )
+  value = connections [ db ] . ops . process_clob ( row [ 1 ] )
+  from collections import OrderedDict
+          return self . name
+                  return Media ( definition )
+    def _set ( self , key , value , timeout = DEFAULT_TIMEOUT ) :
+                      response = view_func ( request , * args , ** kwargs )
+   def _reverse_with_prefix ( self , lookup_view , _prefix , * args , ** kwargs ) :
+   if url . startswith ( '///' ) :
+   if content_length > settings . FILE_UPLOAD_MAX_MEMORY_SIZE :
+ for format in BUILTIN_SERIALIZERS :
+          arg = ',' + arg
+  except ValueError :
+ if settings . TEMPLATE_DEBUG :
+ remaining_bits = bits [ 2 : ]
+  sio = BytesIO ( self . buffer )
+              name , ( value , params ) = _parse_header ( line )
+                      self . _deleted_form_indexes . append ( i )
+                  for dirpath , dirnames , filenames in os . walk ( ldir ) :
+ self . render_context = RenderContext ( )
+ for migration in migrations_to_squash :
+  except ImportError :
+ work_file = os . path . join ( self . dirpath , thefile )
+ duplicate . dicts = self . dicts [ : ]
+                              self . stdout . write ( " [X] %s" % title )
+  if self . _should_delete_form ( form ) :
+  PVOID = c_void_p
+          _urlconfs . value = urlconf_name
+  def add_arguments ( self , parser ) :
+   def m ( self ) :
+     def compress_string ( s ) :
+                      for name in handlers :
+     class TemplateResponse ( SimpleTemplateResponse ) :
+                  payload = text . encode ( utf8_charset . output_charset )
+ return self
+  tzinfo = get_fixed_timezone ( offset )
+ self . month_none_value = self . none_value
+          for dict_ in self . dicts :
+  _prefixes . value = prefix
+  else :
+ if data [ last : last + 1 ] == b'\n' :
+      if response is None :
+              return output
+ if id_for_label :
+    def __str__ ( self ) :
+ token . source = self . origin , source
+          self . object = obj
+ size = self . file . tell ( )
+   def build_attrs ( self , extra_attrs = None , ** kwargs ) :
+   except :
+                  if inplural :
+   def __deepcopy__ ( self , memo ) :
+      if number == 1 :
+ html_gunk_re = re . compile ( r'(?:<br clear="all">|<i><\/i>|<b><\/b>|<em><\/em>|<strong><\/strong>|<\/?smallcaps>|<\/?uppercase>)' , re . IGNORECASE )
+   if common_ancestor is None :
+  value = int ( s , 36 )
+                  pass
+ if reverse :
+ def __init__ ( self , widgets , attrs = None ) :
+          return self . as_ul ( )
+   def __getitem__ ( self , name ) :
+ self . active_writers = 0
+ seen_models = connection . introspection . installed_models ( tables )
+ parser . add_option ( '--settings' ,  help = 'The Python path to a settings module, e.g. "myproject.settings.main". If this isn\'t provided, the DJANGO_SETTINGS_MODULE environment variable will be used.' )
+              try :
+                  try :
+ raise NotImplementedError ( 'subclasses of BaseEmailBackend must override send_messages() method' )
+ self . db = options . pop ( 'using' , DEFAULT_DB_ALIAS )
+           unicode_value = force_text ( value , strings_only = True )
+                      for model in model_list :
+ for node in self :
+ def __init__ ( self , data = None , files = None , instance = None ,  save_as_new = False , prefix = None , queryset = None , ** kwargs ) :
+ cache_get = cache . get
+  self . callback = None
+ self . pointer = i
+  basedirs . extend ( settings . LOCALE_PATHS )
+ try :
+  if val is None :
+          if isinstance ( self . var , Variable ) :
+          pieces = [ ]
+          return len ( self . forms )
+                  message = message . error_dict
+ pass
+ for option in option_label :
+    with self . _lock . writer ( ) :
+  else :
+      try :
+ try :
+              initial = [ ]
+              self . stream = None
+              return 'st'
+ return result
+  from django . apps import apps
+              self . file . __enter__ ( )
+                  closable . close ( )
+                  name = self . split_leading_dir ( name ) [ 1 ]
+ def load ( parser , token ) :
+   user_part , domain_part = value . rsplit ( '@' , 1 )
+              from django . utils . translation import trans_null as trans
+ if self . waiting_writers != 0 :
+  self . validators = self . default_validators + validators
+ from django . http . request import ( HttpRequest , QueryDict ,  RawPostDataException , UnreadablePostError , build_request_repr )
+  try :
+  return ResolverMatch ( self . callback , args , kwargs , self . name )
+ code = 'max_value'
+ handler . addQuickElement ( "description" , self . feed [ 'description' ] )
+                      match = None
+  from django . apps import apps
+    @ register . tag
+   elif field . required :
+          verbosity = options . get ( 'verbosity' )
+  except ImportError :
+   for migration in merge_migrations :
+      def __init__ ( self , format_string ) :
+   raise
+  else :
+  return six . text_type ( s ) . encode ( encoding , errors )
+ t = getattr ( _active , "value" , None )
+ value = super ( IntegerField , self ) . to_python ( value )
+ parser . StartDoctypeDeclHandler = self . start_doctype_decl
+     class RegexURLPattern ( LocaleRegexProvider ) :
+          return json . dumps ( self . get_json_data ( escape_html ) )
+ return errors
+ if self . cc :
+  except ImportError :
+ try :
+ self . params = params
+              self . keyOrder . append ( key )
+ return line
+ if self . is_bound :

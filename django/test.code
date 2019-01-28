@@ -1,0 +1,400 @@
+ result . _choices = copy . deepcopy ( self . _choices , memo )
+              yield
+ if isinstance ( file_name , Template ) :
+          self . reader_enters ( )
+  elif piece :
+    def resolve_context ( self , context ) :
+ widget = self . field . widget
+   elif hasattr ( s , '__unicode__' ) :
+      compare = lambda self , a , b : a < b
+          raise ValueError ( "Base36 input too large" )
+              code_list . append ( background [ v ] )
+   if cwords [ 0 ] == 'runfcgi' :
+            result = force_text ( message )
+  except NameError :
+ if self . validate_domain_part ( domain_part ) :
+   self . can_read . acquire ( )
+   if self . META . get ( 'CONTENT_TYPE' , '' ) . startswith ( 'multipart/form-data' ) :
+      """     Adds (or updates) the "Vary" header in the given HttpResponse object.     newheaders is a list of header names that should be in "Vary". Existing     headers in "Vary" aren't removed.     """
+  RESET = '0'
+ return self . add_truncation_text ( ' ' . join ( words ) , truncate )
+              return 12
+ if ret :
+    stream . unget ( chunk [ header_end + 4 : ] )
+ if not hasattr ( template , 'render' ) :
+ program_options = [ '--check-format' ]
+ pickled = pickle . dumps ( value , pickle . HIGHEST_PROTOCOL )
+  requires_system_checks = False
+   else :
+              package_path = package . __path__
+ sub_match_dict . update ( sub_match . kwargs )
+  sign = '-' if offset < 0 else '+'
+              val = None
+  if len ( bits ) == 3 :
+          self . conditions_nodelists = conditions_nodelists
+ from django . utils . encoding import force_text
+                  new = name
+      pass
+                      self . _js . append ( path )
+ for x in arg . split ( ':' ) :
+  import json
+ cmp_fmts = list ( self . compression_formats . keys ( ) ) if cmp_fmt is None else [ cmp_fmt ]
+ def stringformat ( value , arg ) :
+ return super ( URLField , self ) . clean ( value )
+ for form in self . initial_forms :
+              warnings . warn ( 'Cache key will cause errors if used with memcached: '  '%s (longer than %s)' % ( key , MEMCACHE_MAX_KEY_LENGTH ) ,  CacheKeyWarning )
+                  self . stdout . write ( "%s\n" % line )
+   if not matches :
+          return ''
+                  self . waiting_readers += 1
+          self . fed . append ( '&#%s;' % name )
+     class LocaleRegexURLResolver ( RegexURLResolver ) :
+          try :
+                   if not os . path . exists ( filename ) :
+    conflicts = executor . loader . detect_conflicts ( )
+   def get_version ( version = None ) :
+   class Command ( BaseCommand ) :
+  self . replace_header ( 'Content-Type' , 'text/%s; charset="%s"' % ( subtype , charset ) )
+ return self . expression . resolve ( context , True )
+  import re
+ nodes = [ ]
+ salt = force_bytes ( salt )
+   def to_python ( self , value ) :
+    class JsonResponse ( HttpResponse ) :
+ from django . utils . six . moves . urllib . parse import quote
+          return [ format_html ( '<script type="text/javascript" src="{0}"></script>' , self . absolute_path ( path ) ) for path in self . _js ]
+                          date = form . cleaned_data [ unique_for ]
+          self . encoding = encoding
+  output_transaction = True
+   def has_key ( self , key , version = None ) :
+                  return format_html ( "" )
+   def value_from_datadict ( self , data , files , name ) :
+              return template
+                               self . required , self . label , self . initial = required , label , initial
+              if hasattr ( value , 'close' ) :
+  except AmbiguityError :
+              return self . _stream . readline ( * args , ** kwargs )
+ if k in seen :
+              raise ValueError ( "Key '%s' not found" % key )
+  self . stdout . write ( (  "%(started_at)s\n"  "Django version %(version)s, using settings %(settings)r\n"  "Starting development server at http://%(addr)s:%(port)s/\n"  "Quit the server with %(quit_command)s.\n"  ) % {  "started_at" : now ,  "version" : self . get_version ( ) ,  "settings" : settings . SETTINGS_MODULE ,  "addr" : '[%s]' % self . addr if self . _raw_ipv6 else self . addr ,  "port" : self . port ,  "quit_command" : quit_command ,  } )
+ pieces = accept_language_re . split ( lang_string . lower ( ) )
+ if not indent :
+              try :
+   elif len ( key ) == 1 and type ( key [ 0 ] ) in fasttypes :
+              confirm = input ( """You have requested a flush of the database. This will IRREVERSIBLY DESTROY all data currently in the %r database, and return each table to an empty state. Are you sure you want to do this?     Type 'yes' to continue, or 'no' to cancel: """ % connection . settings_dict [ 'NAME' ] )
+   def values ( self ) :
+     root = config . get ( 'root' , None )
+ def rendered_content ( self ) :
+                  if "'format'" not in str ( te ) :
+              if register_to :
+   templatetags_modules = _templatetags_modules
+  if data_list [ 1 ] in self . empty_values :
+    @ register . filter ( is_safe = True , needs_autoescape = True )
+                      if not self . _css . get ( medium ) or path not in self . _css [ medium ] :
+          if code is None :
+              if force_text ( val ) not in pks :
+   def set_many ( self , data , timeout = DEFAULT_TIMEOUT , version = None ) :
+          stream_or_string = stream_or_string . decode ( 'utf-8' )
+                  trimmed = trim_url ( middle )
+ if self . parent_name . filters or isinstance ( self . parent_name . var , Variable ) :
+ import re
+  return True
+              errors . update ( kwargs [ 'error_messages' ] )
+ return data
+              command . stdout . write ( 'processing file %s in %s\n' % ( self . file , self . dirpath ) )
+    def setlist ( self , key , list_ ) :
+   def size ( self , name ) :
+ return random_module . choice ( value )
+  if options . get ( 'liveserver' ) is not None :
+          value = escape ( value )
+                  break
+              form = ManagementForm ( auto_id = self . auto_id , prefix = self . prefix , initial = {  TOTAL_FORM_COUNT : self . total_form_count ( ) ,  INITIAL_FORM_COUNT : self . initial_form_count ( ) ,  MIN_NUM_FORM_COUNT : self . min_num ,  MAX_NUM_FORM_COUNT : self . max_num  } )
+ latest_date = None
+ if options . get ( 'use_default_ignore_patterns' ) :
+  finally :
+                  ip ( )
+ if not os . path . isfile ( pythonrc ) :
+ nodelist = parser . parse ( ( 'endspaceless' , ) )
+ units = len ( tupl [ 1 ] ) - tupl [ 2 ]
+     def find_files ( self , root ) :
+           self . ignore = options . get ( 'ignore' )
+    return False
+    @ register . tag
+          return ( self . field . prepare_value ( obj ) , self . field . label_from_instance ( obj ) )
+  if upto != len ( token ) :
+    DNS_NAME = CachedDnsName ( )
+ _meth_self = "im_self"
+  finally :
+               logger . removeHandler ( handler )
+              return lookup_view
+              return self . _choices
+  else :
+     class DateTimeField ( BaseTemporalField ) :
+   yield ''
+  self . label_suffix = label_suffix if label_suffix is not None else _ ( ':' )
+              self . instance = instance
+          import bpython
+      locale_dirs = filter ( os . path . isdir , glob . glob ( '%s/*' % self . default_locale_path ) )
+          raise
+   def handle ( self , ** options ) :
+    def readline ( self , * args , ** kwargs ) :
+  def __init__ ( self , input_date_formats = None , input_time_formats = None , * args , ** kwargs ) :
+   from django . conf import settings
+ os . dup2 ( se . fileno ( ) , sys . stderr . fileno ( ) )
+ try :
+              value = int ( str ( value ) )
+ for f in fields :
+ self . attachments = attachments or [ ]
+ self . deprecation_warning = deprecation_warning
+ if not email_messages :
+          self . _assert_mutable ( )
+              doy += 1
+              digits . append ( '-' )
+                              e . args = ( "Could not load %(app_label)s.%(object_name)s(pk=%(pk)s): %(error_msg)s" % {  'app_label' : obj . object . _meta . app_label ,  'object_name' : obj . object . _meta . object_name ,  'pk' : obj . object . pk ,  'error_msg' : force_text ( e )  } , )
+          _dec . __name__ = 'method_decorator(%s)' % decorator . __class__ . __name__
+                  m2m_data [ field . name ] = self . _handle_m2m_field_node ( field_node , field )
+ extra_files = [ ]
+      import pytz
+  full_file = os . path . join ( self . path , f )
+              mw_class = import_string ( middleware_path )
+                         if field . error_messages [ 'incomplete' ] not in errors :
+              if can_fail :
+  else :
+   def r ( self ) :
+                      continue
+                   row_data = ( form . cleaned_data [ field ]  for field in unique_check if field in form . cleaned_data )
+      if os . environ . get ( "RUN_MAIN" ) == "true" :
+      table_names = [ model . _meta . db_table for model in self . models ]
+ self . subject = subject
+ self . __doc__ = self . __class__ . __doc__
+ if self . __dispatch is None :
+ if obj_pk is not None :
+          warnings . warn ( '`MergeDict` is deprecated, use `dict.update()` '  'instead.' , RemovedInDjango19Warning , 2 )
+  if not want_unicode :
+ self . _pk_field = pk = self . model . _meta . pk
+ self . connection . ehlo ( )
+  m2m_data = { }
+              return [ ]
+      def b ( s ) :
+    except UnicodeError as e :
+          return self . level >= ERROR
+                  break
+      return { 'request' : request }
+  final_attrs = self . build_attrs ( attrs , type = self . input_type , name = name )
+              return [ self [ k ] for k in self . keyOrder ]
+              raise CommandError ( 'You must set settings.ALLOWED_HOSTS if DEBUG is False.' )
+from __future__ import unicode_literals
+           template = get_template_from_string ( template , origin , template_name )
+  connection = connections [ options [ 'database' ] ]
+          value = signing . get_cookie_signer ( salt = key + salt ) . sign ( value )
+ excluded_models = set ( )
+              django_po = os . path . join ( django_dir , 'conf' , 'locale' , locale , 'LC_MESSAGES' , '%s.po' % domain )
+          pass
+  from binascii import Error as BinasciiError
+   return instance
+          return self . position
+  except KeyError :
+               for middleware_method in self . _response_middleware :
+   class IfParser ( object ) :
+   def render ( self , context ) :
+   POST = property ( _get_post , _set_post )
+ django_dir = os . path . normpath ( os . path . join ( os . path . dirname ( django . __file__ ) ) )
+                  raise ValueError ( 'Unable to add handler %r: %s' % ( h , e ) )
+                  exp = datetime . max
+                if isinstance ( content , EmailMessage ) :
+ raise TemplateDoesNotExist ( name )
+ week_number = j // 7
+                              extra_params [ 'primary_key' ] = True
+  self . cleaned_data = { }
+  return not ( ( converter ( opts . db_table ) in tables ) or  ( opts . auto_created and converter ( opts . auto_created . _meta . db_table ) in tables ) )
+  errors = [ ]
+ if not isinstance ( error , ValidationError ) :
+ __eq__ = new_method_proxy ( operator . eq )
+                              field_type = 'NullBooleanField('
+ from django . utils import six
+ token = parser . next_token ( )
+          return False
+     class SplitHiddenDateTimeWidget ( SplitDateTimeWidget ) :
+ if isinstance ( callback , functools . partial ) :
+           raise parser . error_class (  "Not expecting '%s' in this position in if tag." % self . id  )
+ translators_comment_start = None
+              subcommand_cls = self . fetch_command ( cwords [ 0 ] )
+ call_command ( "migrate" , ** options )
+ if html_message :
+ return self . _size
+ _func_globals = "__globals__"
+ return '' . join ( output )
+    if opts . model :
+   def _close_files ( self ) :
+ self . clear_cdata_mode ( )
+ if isinstance ( elt , Group ) :
+ return candidate_pat % candidate_subs
+   if _samefile ( old_file_name , new_file_name ) :
+              self . stream . write ( "\n" )
+ self . origin = origin
+ doublecolon_len = 0
+  ip_str = _sanitize_ipv4_mapping ( ip_str )
+                              try :
+   if new_name . endswith ( '_' ) :
+          j = 36 ** factor
+    @ register . filter ( is_safe = False )
+ self . _remaining = length
+  def render ( self , context ) :
+           fks_to_parent = [  f for f in opts . fields  if isinstance ( f , ForeignKey )  and ( f . rel . to == parent_model  or f . rel . to in parent_model . _meta . get_parent_list ( ) )  ]
+              return self . _caches . caches [ alias ]
+                  attrs [ 'max' ] = self . max_value
+          super ( MultiValueDict , self ) . __init__ ( key_to_list_mapping )
+          super ( MovedModule , self ) . __init__ ( name )
+  else :
+ from django . utils . functional import allow_lazy
+  except ( HTMLParseError , UnboundLocalError ) :
+                      value = None
+     class SafeBytes ( bytes , SafeData ) :
+     class ChoiceField ( Field ) :
+ from django . forms . formsets import BaseFormSet , formset_factory
+              params = params [ 1 : ]
+   def __ne__ ( self , other ) :
+ return filter_func
+ result . append ( ch )
+  else :
+ self . _fname = os . path . join ( self . file_path , fname )
+ if six . PY2 :
+ for name in bits [ 1 : - 2 ] :
+ return getattr ( _prefixes , "value" , '/' )
+ from django . utils . functional import cached_property
+ if unpack :
+    else :
+   class BadSignature ( Exception ) :
+ from django . utils . encoding import python_2_unicode_compatible
+          return self . msg % tuple ( force_text ( p , errors = 'replace' ) for p in self . params )
+ if settings . configured :
+          for k , v in self . _iteritems ( ) :
+ import warnings
+  context_extras = { }
+  if current_app and current_app in app_list :
+    def add_prefix ( self , index ) :
+   def __iter__ ( self ) :
+                  handler . addQuickElement ( "uri" , self . feed [ 'author_link' ] )
+     def parse_http_date_safe ( date ) :
+   if hasattr ( filter_func , "_decorated_function" ) :
+ from django . utils . encoding import smart_text , force_str , force_text
+  from django . core . exceptions import ValidationError , NON_FIELD_ERRORS
+          for dict_ in self . dicts :
+                      yield line
+ excludes = options . get ( 'exclude' )
+  def __init__ ( self , schemes = None , ** kwargs ) :
+          value = ugettext ( "%s GB" ) % filesize_number_format ( bytes / GB )
+ cls . _delegate_text = six . text_type in resultclasses
+ option = '--testrunner='
+ if not isabs ( path ) :
+          parser . add_argument ( '--database' , action = 'store' , dest = 'database' ,  default = DEFAULT_DB_ALIAS , help = 'Nominates a database onto which to '  'open a shell. Defaults to the "default" database.' )
+ memo [ id ( self ) ] = obj
+   def setdefault ( self , key , default = None ) :
+    forms = ' ' . join ( form . as_table ( ) for form in self )
+ for character in name :
+ msg += '\n%s:\n%s\n' % ( group_name , formatted )
+              return match . group ( 0 )
+   def __bytes_cast ( self ) :
+   def reset_format_cache ( ) :
+  with context . push ( ** values ) :
+     @ contextlib . contextmanager
+  unencoded_ampersands_re = re . compile ( r'&(?!(\w+|#\d+);)' )
+ cursor . execute (  connections [ db ] . ops . cache_key_culling_sql ( ) % table ,  [ cull_num ] )
+ parser . add_argument ( '--noinput' , action = 'store_false' , dest = 'interactive' , default = True ,  help = 'Tells Django to NOT prompt the user for input of any kind.' )
+      class LabelCommand ( BaseCommand ) :
+   attrs = attrs or { }
+   for check in checks :
+   else :
+      status_code = 404
+    else :
+                                          cursor . execute ( sql )
+ def cycle ( parser , token ) :
+  return lazy ( func , * resultclasses ) ( * args , ** kwargs )
+ param = elt [ 1 ]
+          raise TemplateSyntaxError ( "'%s' cannot appear more than once in the same template" % bits [ 0 ] )
+                          try :
+ app_dirs . append ( os . path . normpath ( os . path . join ( app_dir , 'sql' ) ) )
+                  raise CommandError ( "App '%s' does not have migrations (you cannot selectively sync unmigrated apps)" % app_label )
+ from django . utils . deprecation import RemovedInDjango19Warning
+ if p_pattern . startswith ( '^' ) :
+                          cursor . execute ( line )
+  password = force_bytes ( password )
+  yield buf
+           return timezone . tzname ( None )
+ for path in collect :
+                  definition [ 'opts' ] = opts
+                  raise base . DeserializationError ( "<field> node is missing the 'name' attribute" )
+ if sent :
+      def inner ( self , * args ) :
+  try :
+   cull_frequency = params . get ( 'cull_frequency' , options . get ( 'CULL_FREQUENCY' , 3 ) )
+ self . key_func = get_key_func ( params . get ( 'KEY_FUNCTION' , None ) )
+   def utcoffset ( self , dt ) :
+  def add_arguments ( self , parser ) :
+              handler . addQuickElement ( "summary" , item [ 'description' ] , { "type" : "html" } )
+    class RendererMixin ( object ) :
+              pass
+          ch = None
+ try :
+  except ( LookupError , BinasciiError ) as e :
+ result_args = new_args
+ paths = [ force_text ( p ) for p in paths ]
+              app_configs = [ app_config ]
+              if event == "START_ELEMENT" and node . nodeName == "object" :
+  if data is None :
+ import tempfile
+ self . target_var = target_var
+     return text
+ if len ( bits ) > 2 :
+              try :
+ def __init__ ( self , language ) :
+    def j ( self ) :
+                  value = related . natural_key ( )
+ if ch in '*?+' :
+       if transaction . get_autocommit ( self . using ) :
+ super ( TemplateIfParser , self ) . __init__ ( * args , ** kwargs )
+ for operation in migration . merged_operations :
+    templatetags_modules = [ ]
+  except AttributeError :
+ for field in concrete_model . _meta . local_fields :
+  parser . add_argument ( '--settings' ,  help = 'The Python path to a settings module, e.g. "myproject.settings.main". If this isn\'t provided, the DJANGO_SETTINGS_MODULE environment variable will be used.' )
+ import random as random_module
+ if construct :
+ if limit_choices_to is not None :
+ collect . extend ( settings . TEMPLATE_CONTEXT_PROCESSORS )
+  self . connection = None
+  with open ( new_path , 'wb' ) as new_file :
+ from django . utils import six
+   def validate_unique ( self ) :
+ for base in reversed ( new_class . __mro__ ) :
+ from django . utils . encoding import force_bytes , python_2_unicode_compatible
+ raise NotImplementedError ( "This backend doesn't support absolute paths." )
+          max_num = 1
+  self . setlist ( key , default_list )
+  exp = exp . replace ( microsecond = 0 )
+    try :
+  else :
+              return text
+ import datetime
+ meta = getattr ( form , 'Meta' , None )
+                  self . connection . quit ( )
+              raise ValueError ( "@python_2_unicode_compatible cannot be applied "  "to %s because it doesn't define __str__()." %  klass . __name__ )
+  cleaned_data = form . cleaned_data
+    def setdefault ( self , key , default ) :
+ from django . utils . encoding import force_text , python_2_unicode_compatible
+    def send_messages ( self , email_messages ) :
+  elif not callable ( formfield_callback ) :
+ nodelist = parser . parse ( )
+              doublecolon_len += 1
+ return mark_safe ( _urlize ( value , trim_url_limit = int ( limit ) , nofollow = True ,  autoescape = autoescape ) )
+  try :
+                  return getattr ( instance , name ) ( )
+ self . base = base
+  def module_has_submodule ( package , module_name ) :
+ month = months [ date . month - 1 ]
+          pass
+           raise parser . error_class (  "Not expecting '%s' as infix operator in if tag." % self . id  )
+ if i < 36 ** factor :
+   def __str__ ( self ) :
+          length = int ( arg )
+ if not m :
