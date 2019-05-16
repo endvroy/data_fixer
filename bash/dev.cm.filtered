@@ -174,7 +174,7 @@ find / -name "*.txt"
 find / -name '*.txt' -exec du -hc {} \;
 find . -name '*shp*'
 find -name "*text"
-find . -name ‘*.c’ | xargs egrep stdlib.h
+find . -name '*.c' | xargs egrep stdlib.h
 find . -name '*.gz'
 find * -name "*.java"
 find $d -name '*.js' | grep -v " "
@@ -191,7 +191,7 @@ find . -maxdepth 1 -type d -print0
 find . -name "D" -type d
 find ./ -type d -name 'D'
 find / -name local -type d
-find /somePath -type d -name ‘someNamePrefix*’ -mtime +10 -print | xargs rm -rf ;
+find /somePath -type d -name 'someNamePrefix*' -mtime +10 -print | xargs rm -rf ;
 find test -regex "[course*]" -type d
 find /home/me/target_dir_1 -type d
 find /home/mywebsite/public_html/sites/all/modules -type d -exec chmod 750 {} +
@@ -311,7 +311,7 @@ find / -type f -perm -002 -print0
 find / -inum 199053
 find . ... -print -quit
 find / -name grub.conf
-find ~/Desktop -name “*.jpg” -o -name “*.gif” -o -name “*.png” -print0 | xargs -0 mv –target-directory ~/Pictures
+find ~/Desktop -name "*.jpg" -o -name "*.gif" -o -name "*.png" -print0 | xargs -0 mv –target-directory ~/Pictures
 find . -type d -print0 | xargs -0 du | sort -n | tail -10 | cut -f2 | xargs -I{} du -sh {}
 md5sum file*.txt
 find  / -type d -iname "project.images" -ls
@@ -502,7 +502,7 @@ find . -name "*.andnav" -exec rename -v 's/\.andnav$/\.tile/i' {} \;
 find . -name "*.andnav" | rename "s/\.andnav$/.tile/"
 echo $(yes image.png | head -n10)
 yes image.png | head -n10 | xargs echo
-find -name ‘*exp_to_find_in_folders*’ -exec rename “s/exp_to_find_for_replacement/exp_to_replace/” {} \;
+find -name '*exp_to_find_in_folders*' -exec rename "s/exp_to_find_for_replacement/exp_to_replace/" {} \;
 grep -v '^$' YOURFILE | nl -s= -w99 | tr -s ' ' p
 echo -e "length(FOO)==$(echo -ne "${FOO}" | wc -m)"
 head -1 table | tr -s ' ' '\n' | nl -nln |  grep "Target" | cut -f1
@@ -548,7 +548,7 @@ history | grep " 840"
 history | grep -C 5 ifconfig
 history | grep ifconfig -A5 -B5
 cat file | grep pattern | paste -sd' '
-find / -name ‘*.*’ -exec grep -il “foobar” {} \;
+find / -name '*.*' -exec grep -il "foobar" {} \;
 find . -type f -print | xargs grep "example"
 find sources -type f -exec grep -H foo {} +
 find . -type f | xargs grep "magic"
@@ -588,7 +588,7 @@ touch -m --date="Wed Jun 12 14:00:00 IDT 2013" filename
 PS1=`hostname`':\W> '
 PS4='+$(date "+%s:%N") %N:%i> '
 ssh -L 1234:remote2:22 -p 45678 user1@remote1
-find . -name ‘*ITM*’
+find . -name '*ITM*'
 date "+%Y-%m-%d"
 find /mnt/raid -type d -print
 read -rsp $'Press any key or wait 5 seconds to continue...\n' -n 1 -t 5

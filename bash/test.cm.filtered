@@ -96,8 +96,8 @@ find /TBD -mtime +1 -type d | xargs rm -f -r
 find . -inum $inum -exec rm {} \
 find /TBD/* -mtime +1 | xargs rm -rf
 find . -name "core" -exec rm -f {} \;
-find . -name “*.old” -exec rm {} \;
-find . -name “*.old” -print | xargs rm
+find . -name "*.old" -exec rm {} \;
+find . -name "*.old" -print | xargs rm
 find . -type f -print -delete
 find . -type f -print0 | xargs -0 /bin/rm
 find . -type f ! -iname "*.txt" -delete
@@ -132,7 +132,7 @@ find $HOME \! -iname "*.c" print
 find /dir/to/search -path '*/.*' -print
 find . -path "./foo" -prune -o -path "./bar" -prune -o -type f -name "*.html"
 find . -iname '*.jar'
-find / -name “*.mp3” -atime +01 -type f
+find / -name "*.mp3" -atime +01 -type f
 find . -type f -name "*.php" ! -perm 644
 find . -name '*.php' -o -name '*.xml' -o -name '*.phtml'
 find /root -type f -size +500M -printf "The %p file is greater than 500MB\n"
@@ -186,7 +186,7 @@ find . -name '*.rpm'
 find . -maxdepth 1 -type f -name '*.txt' -not -name File.txt
 find . -maxdepth 1 -type f -regex '.*\.txt' -not -name File.txt
 mv $(find . -name "*shp*" -printf "%h\n" | uniq)/* ../shp_all/
-find -iname “*.c” -exec grep -l ‘main(‘ {} \; -a -exec cp {} test1/ \;
+find -iname "*.c" -exec grep -l 'main(' {} \; -a -exec cp {} test1/ \;
 find /path/to/dir -name "*.gz" -type f
 find . -type f -name '*.js' \( -exec grep -q '[[:space:]]' {} \; -o -print \)
 find /  -type f -name *.mp3 -size +10M -exec rm  {} \;

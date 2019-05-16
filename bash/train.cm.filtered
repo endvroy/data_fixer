@@ -177,7 +177,7 @@ cd -L ..
 cd $(readlink /proc/$PID/cwd)
 cd $(readlink -f $(dirname $0))
 cd
-find -name ‘*.lst’ -exec rename .lst a.lst {} \;
+find -name '*.lst' -exec rename .lst a.lst {} \;
 find . -xtype f \! -iname *.html   -exec mv -iv "{}"  "{}.html"  \;
 chown -v root:root /path/to/yourapp
 find /path/to/directory -type f -exec chmod 644 {} +
@@ -429,8 +429,8 @@ find FOLDER1 -type f -print0 | xargs -0 -I % find FOLDER2 -type f -exec diff -qs
 comm <(sort -n f1.txt) <(sort -n f2.txt)
 comm <(sort f1.txt) <(sort f2.txt)
 diff <(echo hello) <(echo goodbye)
-DST=`dirname "${SRC}"`/`basename "${SRC}" | tr '[A-Z]' '[a-z]'`
-g=`dirname "$f"`/`basename "$f" | tr '[A-Z]' '[a-z]'`
+DST=$(dirname "${SRC}")/$(basename "${SRC}" | tr '[A-Z]' '[a-z]')
+g=$(dirname "$f")/$(basename "$f" | tr '[A-Z]' '[a-z]')
 pstree -p | grep git
 gzip archive.tar
 hey=$(echo "hello world" | gzip -cf)
@@ -926,7 +926,7 @@ find /path/to/files* -mtime +2 -delete
 find -delete
 find . ! -name '.gitignore' ! -path '.git' ! -path '.git/*' -exec rm -rf {} \;
 find . -name "*.$1" -delete;
-find . -name “*.old” -delete
+find . -name "*.old" -delete
 find -inum 117672808 -exec rm {} \;
 find . -type f -name "Foo*" -exec rm {} \;
 find -name '*~' -delete
@@ -990,7 +990,7 @@ find ./ -name '*.log' -print0 | xargs -0 rm
 find ./ -name '*.log' | xargs rm
 find . — name "*.LOG" — mtime +5 -ok rm {} \;
 find . -type f -name "*.mp3" -exec rm -f {} \;
-find /home/ -exec grep -l “mp3” {} \; | xargs rm
+find /home/ -exec grep -l "mp3" {} \; | xargs rm
 find /tmp -iname '*.mp3' -print0 | xargs -0 rm
 find /home -type f -name *.mp4 -size +10M -exec rm {} \;
 echo "${depsAlastmodified[$i]}" | tr -cd '[[:digit:]]' | od -c
@@ -1118,7 +1118,7 @@ find / -type f -user root -perm -4000 -exec ls -l {} \;
 find / -type f \( -perm -4000 -o -perm -2000 \) -exec ls -l {} \;
 find / -type f -user bluher -exec ls -ls {}  \;
 find /usr/bin -type f -size -50c -exec ls -l '{}' ';'
-find . -type f -newermt ‘Apr 18 23:59:59 EDT 2013’ ! -newermt ‘Apr 20 00:00:00 EDT 2013’ -exec ls -l ‘{}’ \;
+find . -type f -newermt 'Apr 18 23:59:59 EDT 2013' ! -newermt 'Apr 20 00:00:00 EDT 2013' -exec ls -l '{}' \;
 find . -perm 0777 -type f -exec ls -l {} \;
 find / -regex ".*\.\(xls\|csv\)"
 find / -type f \( -name "*.xls" -o -name "*.csv" \) -exec ls -l {} \;
@@ -1207,7 +1207,7 @@ find . -printf "%h/%f : dernier accès le %Ac\n"
 find . -printf "%h/%f : dernier accès le %AA %Ad %AB %AY à %AH:%AM:%AS\n"
 find . -type f -printf '%T@ %p\n' | sort -n | tail -10 | cut -f2- -d" "
 find . -maxdepth 0
-find . -maxdepth 1 -type f | xargs -I ‘{}’ sudo mv {} /directory1/directory2
+find . -maxdepth 1 -type f | xargs -I '{}' sudo mv {} /directory1/directory2
 find . -type d -depth
 find -regex "^.*~$\|^.*#$"
 find . -name PERSONAL -prune -o -print
@@ -1246,7 +1246,7 @@ find . -amin -60
 find . -cmin +2 -cmin -6
 find . -ctime -1 -print
 find . -newer /bin/sh
-find . -newermt “Sep 1 2006” -and \! -newermt “Sep 10 2006”
+find . -newermt "Sep 1 2006" -and \! -newermt "Sep 10 2006"
 find . -mtime -14 -print
 find . -mtime -2
 find . -mtime -1
@@ -1436,7 +1436,7 @@ find . -type f -name "*.txt"
 find . -name "*.txt" -print
 find . -name "*.txt"
 find . -name "*.txt" -printf "%f\n"
-find -name “*.txt”
+find -name "*.txt"
 find . -name bin -prune -o -name "*.txt" -print
 find . -type f -name "*.txt" ! -name README.txt -print
 find . -mmin 0.5
@@ -1537,7 +1537,7 @@ find /dir/to/search/ -type d -iname ".*" -ls
 find /dir/to/search/ -name ".*" -ls
 find $HOME -name ".*" -ls
 find /dir/to/search/ -type f -iname ".*" -ls
-find . -type f -not -name ‘.*’ -mtime +500 -exec ls {} \;
+find . -type f -not -name '.*' -mtime +500 -exec ls {} \;
 find . -name 'my*' -type f -ls
 find /home/ -type f -size +512k -exec ls -lh {} \;
 find /home/ -type f -size 6579c -exec ls {} \;
@@ -1590,9 +1590,9 @@ ifconfig
 du -sh *
 find . -printf 'Name: %f Owner: %u %s bytes\n'
 find / -type f -printf "\n%AD %AT %p" | head -n 11
-find . -xdev -printf ‘%s %p\n’ |sort -nr|head -20
+find . -xdev -printf '%s %p\n' |sort -nr|head -20
 find . -regex ".*\.\(flv\|mp4\)" -type f -printf '%T+ %p\n' | sort | head -n 500
-find . -name “*.old” -print | wc -l
+find . -name "*.old" -print | wc -l
 find / -type f -print | xargs file
 find --version
 find -version
@@ -1964,7 +1964,7 @@ find . -name '*.java'
 find . -print | grep '\.java'
 find . -print | grep '.*Message.*\.java'
 find / -type f -name *.jpg  -exec cp {} . \;
-find . -name “*.jpg”
+find . -name "*.jpg"
 find . -name *.less
 find . -type f -iname *.mp3
 find . -type f -iname *.mp3 -delete
@@ -2021,7 +2021,7 @@ find ../../$name-module -print0 -name 'Name*' -type f | xargs -0 rename "s/Name/
 find /home/jassi/ -name "aliencoders.[0-9]+"
 find /home/jassi/ -type f -name "aliencoders.[0-9]+"
 find . -type f -name "*.bak" -exec rm -f {} \;
-find . -type f -name “FILE-TO-FIND” -delete;
+find . -type f -name "FILE-TO-FIND" -delete;
 find . -type f -name "*.bak" -exec rm -i {} \;
 find /path/to/search -type l -xtype l
 find /path/to/search -xtype l
@@ -2035,7 +2035,7 @@ find . -type f -name 'btree*.c'
 find /var/www/html/ -type d -name "build*" | sort | tail -n +5 | xargs -I % echo -rf %
 find /var/www/html/ -type d -name "build*" | sort -r
 find . -type d -name "build*" | sort -r
-find . -type f \( -iname “*.c” \) |grep -i “keyword”
+find . -type f \( -iname "*.c" \) |grep -i "keyword"
 find /path/to/search/in -name 'catalina*'
 find -name 'catalina*'
 find . -type f \( -name "*.class" -o -name "*.sh" \)
@@ -2166,7 +2166,7 @@ sudo find /var/www -type d -print0 | xargs -0 chmod 755
 sudo find /var/www/some/subset -type d -print0 | xargs -0 chmod g+s
 find /home/admin/public_html/ -type d -exec chmod 755 {} \;
 find  /root -type d -iname "*linux*"
-find folder_name -type d -exec chmod 775 ‘{}’ \;
+find folder_name -type d -exec chmod 775 '{}' \;
 find parent_directory -type d
 find -type d
 find . -type d
@@ -2208,7 +2208,7 @@ find / -type d -name root
 find / -type d -name Tecmint
 find . -type d -ctime $FTIME
 find . -type d -perm 755 -exec chmod 700 {} \;
-find . -type d -name “DIRNAME” -exec rm -rf {} \;
+find . -type d -name "DIRNAME" -exec rm -rf {} \;
 find -mindepth 3 -type d ! -path '*/p/*' -name c -print
 find -mindepth 3 -type d -path '*/p/*' -prune -o -name c -print
 find /usr -name lib64 -type d|paste -s -d:
@@ -2469,7 +2469,7 @@ find . -name 'some_text_2014.08.19*'
 find . -regextype sed -regex "./test[0-9]\{2\}.txt"
 find . -regex filename-regex.\*\.html
 find . -path './sr*sc'
-find . -name ”*.old” -print
+find . -name "*.old" -print
 find . -inum 211028 -exec mv {} newname.dir \;
 find . -path './src/emacs' -prune -o -print
 find -perm -644
@@ -2612,7 +2612,7 @@ find . -name '[-]*'
 find . -type f -name "*.keep.$1" -print0 | xargs -0 rename "s/\.keep\.$1$//"
 find . -path './sr*sc'
 find . -path "./sr*sc"
-find . -path ‘*/1/lang/en.css’ -print
+find . -path '*/1/lang/en.css' -print
 find . -size +1M -exec mv {} files \+
 find . -size +1M -print0 | xargs -0 -I '{}' mv '{}' files
 find . -size +1M -ok mv {} files \+
@@ -2784,7 +2784,7 @@ find /home -size +10M -size -50M
 find /opt -atime 20
 find /opt -cmin -120
 find /opt -mtime 20
-find /path/to/dir -newermt “Feb 07”
+find /path/to/dir -newermt "Feb 07"
 find /path/to/dir -newermt yyyy-mm-dd ! -newermt yyyy-mm-dd -ls
 find /work -user olivier -print
 find Música/* | egrep -Z \/\\. | xargs -0 echo
@@ -3221,9 +3221,9 @@ find . -name 'orm*'
 find . -name "orm.*"
 find -name '*.patch' -print0 | xargs -0 -I {} cp {} patches/
 find /some/dir -name "*.pdf" ! -name "*_signed.pdf" -print0
-find . -name “*.pdf” -print
+find . -name "*.pdf" -print
 find /dir/containing/unsigned -name '*.pdf' -print0
-find / -user seamstress -iname “*.pdf”
+find / -user seamstress -iname "*.pdf"
 find . -type f -name "*.pl"
 find . -type f -name "*.pl" -print0
 find . -name "*.pl"
@@ -3231,7 +3231,7 @@ find . -type f -name "*.php"
 find . -name \*.php -type f
 find . -name \*.php -type f -print0 | xargs -0 -n1 -P8 grep -Hn '$test'
 find . -name \*.php
-find . -name “*.[php|PHP]” -print
+find . -name "*.[php|PHP]" -print
 find . -name \*.php -type f
 find -name '*.php' -exec grep -li "fincken" {} + | xargs grep -l "TODO"
 find -name '*.php' -exec grep -in "fincken" {} + | grep TODO | cut -d: -f1 | uniq
@@ -3478,8 +3478,8 @@ find . -name "*.txt" -newer /tmp/newerthan
 find . –name "*.txt" –mtime 5
 find / -user root -iname "*.txt" | head
 find FFF -name "*.txt" -exec md5sum '{}' \;
-find /home/calvin/ -maxdepth 2  -name “*.txt”
-find /home/calvin/ -mindepth 2  -name “*.txt”
+find /home/calvin/ -maxdepth 2  -name "*.txt"
+find /home/calvin/ -mindepth 2  -name "*.txt"
 find ~ -name "*.txt" — print
 find /user/directory/ -name "*txt" -mtime 0 -type f -printf '%p: ' -exec tail -1 {} \;
 find . -type f -name "*.txt" ! -path "./Movies/*" ! -path "./Downloads/*" ! -path "./Music/*"
@@ -3550,7 +3550,7 @@ find ./ -path ./beta/* -prune -o -iname example.com -print
 find . -type f -iname "*.py"
 find . -type f -exec ls -s {} \; |sort -n -r |head
 find . -exec echo ' List of files & Direcoty'   {} \;
-find . -name “core” -exec rm -f {} \;
+find . -name "core" -exec rm -f {} \;
 find . -type f | xargs | wc -c
 find /usr -type f | wc -l
 find . -maxdepth 1 -name \*.txt -print0 | grep -cz .
@@ -3801,7 +3801,7 @@ find / -mmin -1
 find . -type f -mtime -7 | xargs tar -cvf `date '+%d%m%Y'_archive.tar`
 find . -type f -mtime +7 | xargs tar -cvf `date '+%d%m%Y'_archive.tar`
 find . -type f -mtime +7 -mtime -14 | xargs tar -cvf `date '+%d%m%Y'_archive.tar`
-find . -type f -mtime +7 -mtime -14 | xargs tar -cvf `date ‘+%d%m%Y’_archive.tar`
+find . -type f -mtime +7 -mtime -14 | xargs tar -cvf `date '+%d%m%Y'_archive.tar`
 find /travelphotos -type f -size +200k -not -iname "*2015*"
 find /etc/apache-perl -newer /etc/apache-perl/httpd.conf
 find /some/path -type f ! -perm -111 -ls
@@ -4138,7 +4138,7 @@ echo -e {{a..n},ñ,{o..z}}"\n" | nl
 tFile=$(mktemp --tmpdir=/dev/shm)
 fifo_name=$(mktemp -u -t fifo.XXXXXX)
 fg
-find / -size +10M -printf “%12s %t %h/%fn”
+find / -size +10M -printf "%12s %t %h/%fn"
 find  / -name "apt" -ls
 fg 1
 find /home -type f -printf "%i@%p\n"
@@ -4629,14 +4629,14 @@ find . -perm 040 -type f -exec ls -l {} \;
 find . -perm -g=r -type f -exec ls -l {} \;
 find / -maxdepth 2 -name testfile.txt
 find .  -type f -print|xargs file|grep -i text|cut -fl -d:    | xargs grep regexp
-find . -name “*.jpg”
-find / -name “*.jpg”
+find . -name "*.jpg"
+find / -name "*.jpg"
 find / -mindepth 3  -name "*log"
 find / -maxdepth 3  -name "*log"
 find / -name 'my*'
 find -mtime +2
 find -mtime +2 -mtime -5
-grep “HIGHMEM” /boot/config-`uname -r`
+grep "HIGHMEM" /boot/config-`uname -r`
 grep ds1337 /lib/modules/`uname -r`/modules.alias
 find -name Cookbook -type d
 find /usr /home -name Chapter1 -type f
@@ -4889,8 +4889,8 @@ paste -d ' ' file <(rev file)
 scp -vp me@server:/location/files\*
 find /ftp/dir/ -size +500k -iname "*.jpg"
 find . -iname "*filename*"
-find /home/*/public_html/ -type f -iwholename “*/wp-includes/version.php” -exec grep -H “\$wp_version =” {} \;
-find /var/www/vhosts/*/httpdocs -type f -iwholename “*/wp-includes/version.php” -exec grep -H “\$wp_version =” {} \;
+find /home/*/public_html/ -type f -iwholename "*/wp-includes/version.php" -exec grep -H "\$wp_version =" {} \;
+find /var/www/vhosts/*/httpdocs -type f -iwholename "*/wp-includes/version.php" -exec grep -H "\$wp_version =" {} \;
 rename -n 's/special/regular/' **
 rsync -nvraL test/a test/dest --exclude=a/b/c/d
 find downloads  -iname "*.gif"
@@ -4989,7 +4989,7 @@ find / -newerct '1 minute ago' -print
 find . -maxdepth 1 -type f -print0
 diff -q /dir1 /dir2|cut -f2 -d' '
 tree -fi |grep -v \>
-find . -name “*.jpg”
+find . -name "*.jpg"
 find sort_test/ -type f | env -i LC_COLLATE=C sort
 find -L. -type l
 diff -dbU0 a b
@@ -5434,7 +5434,7 @@ find ~ -name '*.txt' -print0 | xargs -0 cat
 find ~/ -name '*.txt' -exec cat {} ;
 readlink -ev mypathname
 find . -printf "%y %p\n"
-echo `pwd`/`dirname $0`
+echo $(pwd)/$(dirname $0)
 echo this dir: `dirname $BASH_SOURCE`
 find /home/kibab -name '*.png' -exec echo '{}' ';'
 find -printf '"%h/%f" '
@@ -5774,11 +5774,11 @@ find . -type f -printf '%TY-%Tm-%Td %TH:%TM: %Tz %p\n'| sort -n | tail -n1
 grep "class foo" **/*.c
 cat searches.txt| xargs -I {} -d, -n 1 grep  -r {}
 grep -r --include "*.txt" texthere .
-egrep -R "word-1|word-2” directory-path
+egrep -R "word-1|word-2" directory-path
 find ./ -type f | xargs grep "foo"
-egrep -w -R "word-1|word-2” directory-path
-grep -r -H "text string to search” directory-path
-grep [option] "text string to search” directory-path
+egrep -w -R "word-1|word-2" directory-path
+grep -r -H "text string to search" directory-path
+grep [option] "text string to search" directory-path
 grep -insr "pattern" *
 ls -ld $(find .)
 ls -ldt $(find .)
@@ -6260,7 +6260,7 @@ totalLineCnt=$(cat "$file" | grep "$filter" | grep -v "$nfilter" | wc -l | grep 
 DATE=$(echo `date`)
 CDATE=$(date "+%Y-%m-%d %H:%M:%S")
 myvariable=$(whoami)
-DIR=`pwd`/`dirname $0`
+DIR=$(pwd)/$(dirname $0)
 CURRENT=`pwd`
 real1=$(pwd -P)
 date_222days_before_TodayDay=$(date --date="222 days ago" +"%d")
@@ -6349,8 +6349,8 @@ find . -name '*.code' -exec grep -H 'pattern' {} +
 find . -name '*.code' -print0 | xargs -0 grep -H 'pattern'
 find . -name "*.txt" -print0 | xargs -0 egrep 'string'
 find /directory/containing/files -type f -name "*.txt" -exec grep -H 'pattern_to_search' {} +
-find . -name ‘*.x’ -print0 | xargs -0 grep fred
-find ./bin -name “cp”
+find . -name '*.x' -print0 | xargs -0 grep fred
+find ./bin -name "cp"
 find . -name "*.VER" -exec grep -P 'Model-Manufacturer:.\n.' '{}' ';' -print
 find . -name "*.VER" -exec grep 'Test_Version=' '{}' ';' -print;
 find . -name '*.[ch]' | xargs grep -E 'expr'
@@ -6658,7 +6658,7 @@ find $root_dir -type f
 find / -fstype ext3 -name zsh*
 find / -name "*~" | grep -v "/media"
 find / -size +100M -exec /bin/rm {} \;
-find / -name “*.jpg”
+find / -name "*.jpg"
 find / – perm -0002
 find / -name jan92.rpt -print
 find / -path excluded_path -prune -o -type f -name myfile -print
@@ -6707,7 +6707,7 @@ ps -u `whoami` | grep largecalculation
 find .cache/bower/ -name "message.txt" | xargs cat
 find . -name "*.c" | xargs grep pattern
 find . -name \*.py | xargs grep some_function
-find . -name “*.[php|PHP]” -print | xargs grep -HnT “specified string”
+find . -name "*.[php|PHP]" -print | xargs grep -HnT "specified string"
 zcat `find /my_home -name '*log.20140226*'`|grep 'vid=123'
 find /dir -type f -print0 | xargs -0i cat {} | grep whatever
 find . -exec grep "www.athabasca" '{}' \; -print
@@ -6735,7 +6735,7 @@ find . -name "*.txt" -print0 | xargs -0 egrep mystring
 find . -name '*.txt' | xargs egrep mystring
 find . -name *.txt | xargs egrep mystring
 find ~/html/ -name '*.html' -exec grep organic '{}' ';'
-find . -name “*.cc” |xargs grep -n “pattern”
+find . -name "*.cc" |xargs grep -n "pattern"
 grep pattern file | tr '\n' ' '
 find /directory/containing/files -type f -name "*.txt" -exec grep -H 'pattern_to_search' {} +
 find . -name '*.axvw' -exec grep -n 'some string' {} +
@@ -6744,7 +6744,7 @@ find . -name '*js' -exec grep -n 'some string' {} \;
 find . -name '*js' | grep -n  'some string'
 find . -name '*.txt' -exec grep 'sometext' '{}' \; -print
 grep -n 'something' HUGEFILE | head -n 1
-find . -name “*.[txt|TXT]” -print | xargs grep “specific string”
+find . -name "*.[txt|TXT]" -print | xargs grep "specific string"
 find . -name * | xargs grep -iH "string"
 find . -exec grep -H string-to-find {} \;
 find . -regex filename-regex.\*\.html -exec grep -H string-to-find {} \;
@@ -6764,7 +6764,7 @@ find / -path excluded_path -prune -o -type f -name myfile -print
 find . -name onlyme.sh -exec pwd \;
 find . -name onlyme.sh -execdir pwd \;
 find . -name "*.c" -exec grep -ir "keyword" {} ";"
-find . -type f \( -iname “*.c” \) |grep -i -r “keyword”
+find . -type f \( -iname "*.c" \) |grep -i -r "keyword"
 find . -name '*.c' | xargs grep 'stdlib.h'
 find /directory/containing/files -type f -print0 | xargs -0 grep "test to search"
 find . -exec grep chrome {} +
@@ -6842,10 +6842,10 @@ find / -name *.mp3
 find . -inum NUM
 find . -follow -inum 41525360
 find . -name foo.txt -print0 | xargs -0  -I{} mv {} /some/new/location/{}
-find /mnt/hda1/zdjecia/test1/ -iname “*.jpg” -type f -exec cp {} -rv /mnt/hda1/test{} ‘;’
+find /mnt/hda1/zdjecia/test1/ -iname "*.jpg" -type f -exec cp {} -rv /mnt/hda1/test{} ';'
 find / -name *.jpg -type f -print | xargs tar -cvzf images.tar.gz
 find / -iname "*.mp3" -exec mv {} /mnt/mp3 \;
-find /home/you -iname “*.mp3” -atime 01 -type -f
+find /home/you -iname "*.mp3" -atime 01 -type -f
 find /home/you -iname "*.mp3" -atime 10 -type -f
 find . -type f -maxdepth 1 -not -empty -print0 | xargs -0i cp /dev/null {}
 find . -name '*'
@@ -6947,7 +6947,7 @@ find -type f -name '*.au'
 find ./ -regex '.*\..*'
 find . -name 'kt[0-9] '
 find . -iname 'MyFile*'
-find / -name ”*filename*”
+find / -name "*filename*"
 find $HOME  -mtime 0
 find $HOME  -mtime 0
 find /data/SpoolIn -name job.history
@@ -6957,7 +6957,7 @@ find . -name \*.php -type f -exec grep -Hn '$test' {} \+
 find . -name \*.php -type f -exec grep -Hn '$test' {} \;
 find . -name \*.php -type f -print0 | xargs -0 -n1 grep -Hn '$test'
 find . -name \*.php -type f -print0 | xargs -0 grep -Hn '$test'
-find /home/calvin/ -iname “picasso”
+find /home/calvin/ -iname "picasso"
 find -maxdepth num -name query
 find -mindepth num -name query
 find /work -name 'memo*' -user ann -print
@@ -6986,7 +6986,7 @@ find "Test Folder" -type d -name '.dummy' -delete
 find "Test Folder" -type d -name .dummy -exec rm -rf \"{}\" \;
 find -depth "Test Folder" -type d -name .dummy -exec rm -rf \{\} \;
 find . -name '.?*' -prune
-find -name “*.xml” -exec grep -l “slc02oxm.us.oracle.com” {} \;
+find -name "*.xml" -exec grep -l "slc02oxm.us.oracle.com" {} \;
 find /etc/ -iname "*" | xargs grep '192.168.1.5'
 nl -ba  -nln  active_record.rb  | grep -C 2 '^111 '
 nl -ba  -nln  active_record.rb  | grep '^111 '
@@ -7025,7 +7025,7 @@ find /root/ -name 'work' -prune -o -name myfile -type f -print
 find /root/ -path '/root/work' -prune -o -name myfile -type f -print
 find ./ -type f -name "*" ! -path "./.*" ! -path "./*/.*"
 find / -type f -user bluher -exec ls -ls {}  \;
-find . -type f -iname ‘HSTD*’ -daystart -mtime 1 -exec cp {} /path/to new/dir/ \;
+find . -type f -iname 'HSTD*' -daystart -mtime 1 -exec cp {} /path/to new/dir/ \;
 find / -name myfile -type f -print
 find . -type l -exec readlink -f '{}' \; | grep -v "^`readlink -f ${PWD}`"
 find . -name "*.xml" -exec grep "ERROR" /dev/null '{}' \+
@@ -7034,7 +7034,7 @@ find . -not -path "*git*" -not -name '*git*' |grep git
 find /tmp -name '*.swp' -exec rm {} \;
 find . -type f \( -iname "*.txt" ! -perm -o=w \)
 find . -type f \( -iname "*.txt" -not -perm -o=w \)
-find /home/hobbes/ /home/calvin/ -name “*.txt”
+find /home/hobbes/ /home/calvin/ -name "*.txt"
 find /home/you -iname "*.txt" -mtime -60 -exec cat {} \;
 file $(which foo)
 find /home/*/public_html/ -type f -iwholename "*/modules/system/system.info" -exec grep -H "version = \"" {} \;
@@ -7045,7 +7045,7 @@ find . -iname "*notes*" -print0 | xargs -I{} -0 grep -i mysql "{}"
 find /etc/ -type f -name "*.conf" -print0 | xargs -I {} -0 grep "nameserver" "{}"
 find /etc/ -iname "*" -type f -print0 | xargs -0 grep -H "nameserver"
 find . -name '*bills*' -exec grep -H "put" {} \;
-find . -type f -exec grep -i “redeem reward” {} \; -print
+find . -type f -exec grep -i "redeem reward" {} \; -print
 find . -type f | xargs grep -l "search-pattern"
 find ./ -exec grep -q 'slrn' '{}' \; -print
 find $HOME/html/andrews-corner -exec grep -q 'slrn' '{}' \; -print
@@ -7537,7 +7537,7 @@ find data/ -name filepattern-*2009* -print0 | xargs -0 tar uf 2009.tar
 find ~/ -newer alldata.tar -exec tar uvf alldata.tar {} ;
 find /u/netinst -print | xargs chmod 500
 find . -name '*.php' -exec chmod 755 {} \; | tee logfile.txt
-find folder_name -type d -exec chmod 775 ‘{}’ \;
+find folder_name -type d -exec chmod 775 '{}' \;
 touch filename
 find . -print0 | xargs -0 touch
 find /path/to/dir -print0 | xargs -0 touch
